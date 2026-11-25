@@ -143,12 +143,13 @@ plaintext loopback only; those tests do not certify a production TLS deployment.
 python3 scripts/live_tests.py jvm
 python3 scripts/live_tests.py ios --ios-id SIMULATOR_UDID
 python3 scripts/live_tests.py android
-python3 scripts/live_tests.py submodules --submodule-module PATH/TO/module-test-ts
+python3 scripts/live_tests.py submodules
 ```
 
 Live tests start an isolated server from the stock install (`SPACETIMEDB_INSTALL`,
-default `~/.local/share/spacetime/bin/current`). The submodule tests publish the
-TypeScript module behind `fixtures/module-test-ts`, which is not in this repository. Android requires a running
+default `~/.local/share/spacetime/bin/current`). The submodule tests publish
+`submodule-codegen-tests/spacetimedb`, the TypeScript module behind `fixtures/module-test-ts`
+(copied from upstream's `modules/module-test-ts`). Android requires a running
 emulator and `ANDROID_HOME`; iOS requires Xcode and Apple Silicon. Each runner
 creates isolated keys, CLI config and database data, refuses an occupied port,
 and stops its own server on exit. See [platform smoke tests](platform-smoke-tests/README.md).

@@ -14,9 +14,6 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("platform", choices=("jvm", "ios", "android", "submodules"))
     parser.add_argument("--ios-id")
-    parser.add_argument("--submodule-module", type=Path,
-                        default=Path.home() / "dev/SpacetimeDB/modules/module-test-ts",
-                        help="the TypeScript module the submodule tests run against (module-test-ts)")
     args = parser.parse_args()
     sdk = Path(__file__).resolve().parents[1]
     # The stock SpacetimeDB install (`spacetime version install 2.16.3`).
@@ -25,8 +22,6 @@ def main():
     server = install / "spacetimedb-standalone"
     if not cli.is_file() or not server.is_file():
         parser.error(f"No SpacetimeDB install at {install}: install SpacetimeDB or set SPACETIMEDB_INSTALL")
-    if args.platform == "submodules" and not args.submodule_module.is_dir():
-        parser.error(f"No submodule test module at {args.submodule_module}: pass --submodule-module")
     # Device tests use this fixed, loopback-only port. Refuse to interfere with an existing listener.
     # SO_REUSEADDR ignores TIME_WAIT leftovers from a previous run but still fails on a live listener.
     with socket.socket() as probe:
@@ -61,7 +56,8 @@ def main():
                 # The submodule tests use the TypeScript module behind fixtures/module-test-ts,
                 # which mounts a submodule.
                 if args.platform == "submodules":
-                    module, database = args.submodule_module, "kotlin-submodule-test"
+                    subprocess.run(["npm", "ci", "--silent"], cwd=sdk / "submodule-codegen-tests/spacetimedb", check=True)
+                    module, database = sdk / "submodule-codegen-tests/spacetimedb", "kotlin-submodule-test"
                 else:
                     module, database = sdk / "integration-tests/spacetimedb", "kotlin-integration-test"
                 subprocess.run([

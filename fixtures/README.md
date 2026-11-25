@@ -22,7 +22,10 @@ version, which differs by build: the `// This was generated using spacetimedb cl
 | `case-conversion` | fork `modules/sdk-test-case-conversion` (Rust) | `CaseConversionPolicy`, explicit names |
 | `integration-tests` | `integration-tests/spacetimedb` (Rust) | the module the integration tests run against |
 
-Captured by `scripts/capture-fixtures.sh` (2026-11-25). The fork is needed only to recapture. Don't
+Captured by `scripts/capture-fixtures.sh` (2026-11-25) from the fork, which is gone since; the script
+and `scripts/model-dump` stay as a record of how. `module-test-ts` lives on in
+`submodule-codegen-tests/spacetimedb` (same bindings). A new fixture can't be checked against the old
+generator any more: review its `expected/` by hand. Don't
 regenerate `expected/` with the new generator: that would make the test pass by definition.
 
 **Order.** `extract-schema` writes `Types`, `Tables`, `ExplicitNames`, `Schedules`, `Outboxes` and
