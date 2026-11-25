@@ -13,6 +13,7 @@ kotlin {
 
 dependencies {
     compileOnly("org.jetbrains.kotlin:kotlin-gradle-plugin:${libs.versions.kotlin.get()}")
+    implementation("io.github.kazox61.spacetimedb:spacetimedb-codegen:$version")
 }
 
 gradlePlugin {
@@ -42,3 +43,7 @@ publishing {
         }
     }
 }
+
+// The plugin needs the generator at runtime, so publish both together.
+tasks.named("publish") { dependsOn(gradle.includedBuild("spacetimedb-codegen").task(":publish")) }
+tasks.named("publishToMavenLocal") { dependsOn(gradle.includedBuild("spacetimedb-codegen").task(":publishToMavenLocal")) }

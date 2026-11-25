@@ -1,6 +1,10 @@
 package com.clockworklabs.spacetimedb
 
+import io.github.kazox61.spacetimedb.codegen.Bindings
+import io.github.kazox61.spacetimedb.codegen.SpacetimeToolException
+import io.github.kazox61.spacetimedb.codegen.SpacetimeTools
 import org.gradle.api.DefaultTask
+import org.gradle.api.GradleException
 import org.gradle.api.file.ConfigurableFileCollection
 import org.gradle.api.file.DirectoryProperty
 import org.gradle.api.file.RegularFileProperty
@@ -12,24 +16,30 @@ import org.gradle.api.tasks.OutputDirectory
 import org.gradle.api.tasks.PathSensitive
 import org.gradle.api.tasks.PathSensitivity
 import org.gradle.api.tasks.TaskAction
-import org.gradle.process.ExecOperations
-import javax.inject.Inject
 
-abstract class GenerateBindingsTask @Inject constructor(
-    private val execOps: ExecOperations
-) : DefaultTask() {
-
-    @get:InputFile
-    @get:Optional
-    @get:PathSensitive(PathSensitivity.ABSOLUTE)
+/**
+ * Generates the Kotlin client bindings: builds the module with `spacetime build`, reads its schema with
+ * `spacetimedb-standalone extract-schema`, and runs the generator in-process.
+ */
+abstract class GenerateBindingsTask : DefaultTask() {
+    @get:Internal
     abstract val cli: RegularFileProperty
+
+    @get:Internal
+    abstract val standalone: RegularFileProperty
 
     @get:Internal
     abstract val modulePath: DirectoryProperty
 
+    /** The module's sources, so the task reruns when they change. */
     @get:InputFiles
     @get:PathSensitive(PathSensitivity.RELATIVE)
     abstract val moduleSourceFiles: ConfigurableFileCollection
+
+    @get:InputFile
+    @get:Optional
+    @get:PathSensitive(PathSensitivity.NONE)
+    abstract val schemaFile: RegularFileProperty
 
     @get:OutputDirectory
     abstract val outputDir: DirectoryProperty
@@ -41,42 +51,33 @@ abstract class GenerateBindingsTask @Inject constructor(
 
     @TaskAction
     fun generate() {
-        val moduleDir = modulePath.get().asFile
-        require(moduleDir.isDirectory) {
-            "SpacetimeDB module directory not found at '${moduleDir.absolutePath}'. " +
-            "Set the correct path via: spacetimedb { modulePath.set(file(\"/path/to/module\")) }"
-        }
-
         val outDir = outputDir.get().asFile
-        if (outDir.isDirectory) {
-            outDir.listFiles()?.forEach { it.deleteRecursively() }
-        }
-        outDir.mkdirs()
-
-        val cliPath = if (cli.isPresent) {
-            cli.get().asFile.absolutePath
-        } else {
-            "spacetimedb-cli"
-        }
-
         try {
-            execOps.exec { spec ->
-                spec.commandLine(
-                    cliPath, "generate",
-                    "--lang", "kotlin",
-                    "--out-dir", outDir.absolutePath,
-                    "--module-path", modulePath.get().asFile.absolutePath,
-                )
+            val files = if (schemaFile.isPresent) {
+                Bindings.generate(schemaFile.get().asFile.readText(), SpacetimeTools.TESTED_VERSION)
+            } else {
+                val moduleDir = modulePath.get().asFile
+                if (!moduleDir.isDirectory) {
+                    throw GradleException(
+                        "SpacetimeDB module directory not found at '${moduleDir.absolutePath}'. " +
+                            "Set it with: spacetimedb { modulePath.set(file(\"/path/to/module\")) }",
+                    )
+                }
+                val tools = SpacetimeTools.locate(cli.orNull?.asFile, standalone.orNull?.asFile)
+                    ?: throw GradleException(
+                        "Could not find the SpacetimeDB tools (spacetime and spacetimedb-standalone). " +
+                            "Install SpacetimeDB from https://spacetimedb.com/install or set " +
+                            "spacetimedb { cli.set(file(...)); standalone.set(file(...)) }",
+                    )
+                val version = tools.version()
+                if (version != SpacetimeTools.TESTED_VERSION) {
+                    logger.warn("SpacetimeDB $version: the Kotlin generator is tested with ${SpacetimeTools.TESTED_VERSION}.")
+                }
+                Bindings.generateFromModule(moduleDir, tools)
             }
-        } catch (e: Exception) {
-            if (!cli.isPresent) {
-                logger.warn(
-                    "spacetimedb-cli not found — Kotlin bindings will not be auto-generated. " +
-                    "Install from https://spacetimedb.com or set: spacetimedb { cli.set(file(\"/path/to/spacetimedb-cli\")) }"
-                )
-                return
-            }
-            throw e
+            Bindings.write(files, outDir)
+        } catch (e: SpacetimeToolException) {
+            throw GradleException(e.message ?: "SpacetimeDB tool failed", e)
         }
     }
 }

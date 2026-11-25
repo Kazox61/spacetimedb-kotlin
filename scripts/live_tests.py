@@ -14,13 +14,19 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("platform", choices=("jvm", "ios", "android", "submodules"))
     parser.add_argument("--ios-id")
+    parser.add_argument("--submodule-module", type=Path,
+                        default=Path.home() / "dev/SpacetimeDB/modules/module-test-ts",
+                        help="the TypeScript module the submodule tests run against (module-test-ts)")
     args = parser.parse_args()
     sdk = Path(__file__).resolve().parents[1]
-    root = sdk.parents[1]
-    cli = root / "target/debug/spacetimedb-cli"
-    server = root / "target/debug/spacetimedb-standalone"
+    # The stock SpacetimeDB install (`spacetime version install 2.16.3`).
+    install = Path(os.environ.get("SPACETIMEDB_INSTALL", Path.home() / ".local/share/spacetime/bin/current"))
+    cli = install / "spacetimedb-cli"
+    server = install / "spacetimedb-standalone"
     if not cli.is_file() or not server.is_file():
-        parser.error("Run cargo build -p spacetimedb-cli -p spacetimedb-standalone first")
+        parser.error(f"No SpacetimeDB install at {install}: install SpacetimeDB or set SPACETIMEDB_INSTALL")
+    if args.platform == "submodules" and not args.submodule_module.is_dir():
+        parser.error(f"No submodule test module at {args.submodule_module}: pass --submodule-module")
     # Device tests use this fixed, loopback-only port. Refuse to interfere with an existing listener.
     # SO_REUSEADDR ignores TIME_WAIT leftovers from a previous run but still fails on a live listener.
     with socket.socket() as probe:
@@ -52,24 +58,24 @@ def main():
                         if time.monotonic() >= deadline:
                             raise TimeoutError("Isolated server did not start within 30 seconds")
                         time.sleep(0.1)
-                # The submodule tests use the TypeScript fixture, which mounts a submodule;
-                # building it needs the pnpm workspace installed.
+                # The submodule tests use the TypeScript module behind fixtures/module-test-ts,
+                # which mounts a submodule.
                 if args.platform == "submodules":
-                    module, database = root / "modules/module-test-ts", "kotlin-submodule-test"
+                    module, database = args.submodule_module, "kotlin-submodule-test"
                 else:
                     module, database = sdk / "integration-tests/spacetimedb", "kotlin-integration-test"
                 subprocess.run([
                     str(cli), "--config-path", str(temp / "config.toml"), "publish",
                     "--server", "http://127.0.0.1:57875", "--no-config", "-y",
                     "--module-path", str(module), database,
-                ], check=True, cwd=root)
+                ], check=True, cwd=sdk)
                 env = dict(os.environ, SPACETIMEDB_CLI=str(cli), SPACETIMEDB_HOST="ws://127.0.0.1:57875", SPACETIMEDB_DB_NAME=database)
                 gradle = [str(sdk / "gradlew"), "--no-configuration-cache", "--console=plain", "--rerun-tasks",
                           "-Dorg.gradle.internal.http.connectionTimeout=120000", "-Dorg.gradle.internal.http.socketTimeout=120000"]
                 if args.platform == "jvm":
                     tasks = [":codegen-tests:test", ":integration-tests:test", "-PintegrationTests"]
                 elif args.platform == "submodules":
-                    tasks = ["-PsubmoduleCodegenTests", ":submodule-codegen-tests:test"]
+                    tasks = [":submodule-codegen-tests:test"]
                 elif args.platform == "ios":
                     tasks = ["-PplatformSmokeTests", ":platform-smoke-tests:iosSimulatorArm64Test"]
                     if args.ios_id:

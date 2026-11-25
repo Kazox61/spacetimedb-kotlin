@@ -44,7 +44,4 @@ if (providers.gradleProperty("platformSmokeTests").isPresent) {
     include(":platform-smoke-tests")
 }
 
-// Generating bindings from the TypeScript submodule fixture needs Node and pnpm, so this is opt-in.
-if (providers.gradleProperty("submoduleCodegenTests").isPresent) {
-    include(":submodule-codegen-tests")
-}
+include(":submodule-codegen-tests")

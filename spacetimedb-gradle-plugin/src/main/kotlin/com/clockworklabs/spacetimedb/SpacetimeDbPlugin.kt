@@ -2,6 +2,9 @@ package com.clockworklabs.spacetimedb
 
 import org.gradle.api.Plugin
 import org.gradle.api.Project
+import org.gradle.api.file.Directory
+import org.gradle.api.provider.Provider
+import org.gradle.api.tasks.TaskProvider
 import org.gradle.api.tasks.Delete
 import org.gradle.api.tasks.SourceSetContainer
 import org.jetbrains.kotlin.gradle.dsl.KotlinMultiplatformExtension
@@ -20,6 +23,8 @@ class SpacetimeDbPlugin : Plugin<Project> {
         ext.modulePath.convention(rootDir.dir(configModulePath ?: "spacetimedb"))
 
         val bindingsDir = project.layout.buildDirectory.dir("generated/spacetimedb/bindings")
+        ext.outputDir.convention(bindingsDir)
+        ext.generateOnCompile.convention(true)
         val configDir = project.layout.buildDirectory.dir("generated/spacetimedb/config")
 
         // Clean the Rust target directory when running `gradle clean`
@@ -34,11 +39,14 @@ class SpacetimeDbPlugin : Plugin<Project> {
 
         val generateTask = project.tasks.register("generateSpacetimeBindings", GenerateBindingsTask::class.java) {
             it.cli.set(ext.cli)
+            it.standalone.set(ext.standalone)
             it.modulePath.set(ext.modulePath)
+            it.schemaFile.set(ext.schemaFile)
+            // Build output and dependencies are not sources.
             it.moduleSourceFiles.from(ext.modulePath.map { dir ->
-                project.fileTree(dir) { tree -> tree.exclude("target") }
+                project.fileTree(dir) { tree -> tree.exclude("target", "node_modules", "dist") }
             })
-            it.outputDir.set(bindingsDir)
+            it.outputDir.set(ext.outputDir)
         }
 
         val configTask = project.tasks.register("generateSpacetimeConfig", GenerateConfigTask::class.java) {
@@ -49,7 +57,18 @@ class SpacetimeDbPlugin : Plugin<Project> {
             it.outputDir.set(configDir)
         }
 
-        // Wire generated sources into Kotlin compilation
+        // Wire generated sources into Kotlin compilation, unless the bindings are checked in.
+        project.afterEvaluate { if (ext.generateOnCompile.get()) wireIntoCompilation(project, ext, generateTask, configTask, configDir) }
+    }
+
+    private fun wireIntoCompilation(
+        project: Project,
+        ext: SpacetimeDbExtension,
+        generateTask: TaskProvider<GenerateBindingsTask>,
+        configTask: TaskProvider<GenerateConfigTask>,
+        configDir: Provider<Directory>,
+    ) {
+        val bindingsDir = ext.outputDir
         project.pluginManager.withPlugin("org.jetbrains.kotlin.jvm") {
             val sourceSets = project.extensions.getByType(SourceSetContainer::class.java)
             sourceSets.getByName("main").java.srcDir(bindingsDir)

@@ -2,6 +2,7 @@
 // Plain JVM library, used by the Gradle plugin and a small CLI.
 plugins {
     alias(libs.plugins.kotlinJvm)
+    application
     `maven-publish`
 }
 
@@ -16,6 +17,37 @@ kotlin {
 dependencies {
     implementation(libs.kotlinx.serialization.json)
     testImplementation(libs.kotlin.test)
+}
+
+application {
+    mainClass = "io.github.kazox61.spacetimedb.codegen.cli.MainKt"
+    applicationName = "spacetimedb-codegen"
+}
+
+java {
+    withSourcesJar()
+}
+
+tasks.jar {
+    manifest { attributes("Implementation-Version" to project.version) }
+}
+
+publishing {
+    publications {
+        create<MavenPublication>("maven") { from(components["java"]) }
+    }
+    repositories {
+        maven {
+            name = "community"
+            url = uri(providers.gradleProperty("kotlinSdkRepository").getOrElse(layout.buildDirectory.dir("repository").get().asFile.toURI().toString()))
+            if (providers.gradleProperty("kotlinSdkRepository").orNull?.startsWith("https://") == true) {
+                credentials {
+                    username = providers.environmentVariable("MAVEN_USERNAME").orNull
+                    password = providers.environmentVariable("MAVEN_PASSWORD").orNull
+                }
+            }
+        }
+    }
 }
 
 tasks.test {

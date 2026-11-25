@@ -17,8 +17,6 @@ dependencies {
 }
 
 spacetimedb {
-    cli.set(file(providers.environmentVariable("SPACETIMEDB_CLI")
-        .getOrElse("../../../../target/debug/spacetimedb-cli")))
     modulePath.set(layout.projectDirectory.dir("../../codegen-tests/spacetimedb"))
 }
 

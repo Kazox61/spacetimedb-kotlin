@@ -1,3 +1,6 @@
+// The generator, used in-process by the plugin.
+includeBuild("../spacetimedb-codegen")
+
 dependencyResolutionManagement {
     repositories {
         mavenCentral()

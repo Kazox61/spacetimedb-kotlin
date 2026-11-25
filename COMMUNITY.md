@@ -1,26 +1,22 @@
 # Community Kotlin SDK
 
-This fork targets JVM desktop, Android and iOS. It is not an official Clockwork Labs
+This SDK targets JVM desktop, Android and iOS. It is not an official Clockwork Labs
 release. Existing Kotlin packages and the legacy Gradle plugin ID remain unchanged
 for source compatibility; published SDK coordinates use the community namespace.
 
 ## Use it from source
 
-Build the CLI from this fork (an installed upstream CLI does not provide Kotlin
-codegen):
-
-```sh
-cargo build --locked -p spacetimedb-cli
-```
+Install stock SpacetimeDB 2.16.3 (`spacetime` and `spacetimedb-standalone`); the
+generator is this repository's `spacetimedb-codegen`, which the plugin runs in-process.
 
 In a consumer's `settings.gradle.kts`, include the plugin and substitute the SDK:
 
 ```kotlin
 pluginManagement {
-    includeBuild("/absolute/path/to/SpacetimeDB/sdks/kotlin/spacetimedb-gradle-plugin")
+    includeBuild("/absolute/path/to/spacetimedb-kotlin/spacetimedb-gradle-plugin")
     repositories { google(); mavenCentral(); gradlePluginPortal() }
 }
-includeBuild("/absolute/path/to/SpacetimeDB/sdks/kotlin")
+includeBuild("/absolute/path/to/spacetimedb-kotlin")
 ```
 
 In the consumer's module:
@@ -31,7 +27,6 @@ plugins {
     id("io.github.kazox61.spacetimedb")
 }
 spacetimedb {
-    cli.set(file("/absolute/path/to/SpacetimeDB/target/debug/spacetimedb-cli"))
     modulePath.set(file("../spacetimedb"))
 }
 kotlin {
@@ -47,13 +42,14 @@ Do not close a shared client just because an individual connection disconnects.
 
 ## Local Maven artifacts
 
-From `sdks/kotlin`:
+From the repository root:
 
 ```sh
 ./gradlew :spacetimedb-sdk:publishToMavenLocal --no-configuration-cache
 ./gradlew -p spacetimedb-gradle-plugin publishToMavenLocal --no-configuration-cache
 ```
 
+The plugin's publish tasks also publish `spacetimedb-codegen`, which it depends on.
 Then add `mavenLocal()` to the consumer's dependency and plugin repositories,
 remove the `includeBuild` entries, and specify plugin version `0.1.0-dev`.
 The SDK is `io.github.kazox61.spacetimedb:spacetimedb-sdk:0.1.0-dev`.
@@ -66,8 +62,8 @@ Verify an independent consumer (no project dependency or composite build):
 ./gradlew -p examples/local-consumer run --no-configuration-cache
 ```
 
-This uses only Maven-local artifacts plus the local Kotlin-capable CLI, generates
-typed bindings from the sample schema and compiles them in a separate project.
+This uses only Maven-local artifacts plus the stock SpacetimeDB install, generates
+typed bindings for `codegen-tests/spacetimedb` and compiles them in a separate project.
 
 Versions/group can be overridden using `-PkotlinSdkVersion=...` and
 `-PkotlinSdkGroup=...` (pass the same values to the plugin's separate build).
@@ -142,12 +138,17 @@ plaintext loopback only; those tests do not certify a production TLS deployment.
 
 ```sh
 ./gradlew :spacetimedb-sdk:jvmTest --no-configuration-cache
+./gradlew -p spacetimedb-codegen test   # generator: golden fixtures, see fixtures/README.md
+./gradlew :codegen-tests:test :submodule-codegen-tests:test
 python3 scripts/live_tests.py jvm
 python3 scripts/live_tests.py ios --ios-id SIMULATOR_UDID
 python3 scripts/live_tests.py android
+python3 scripts/live_tests.py submodules --submodule-module PATH/TO/module-test-ts
 ```
 
-Live tests require the locally built CLI/server. Android requires a running
+Live tests start an isolated server from the stock install (`SPACETIMEDB_INSTALL`,
+default `~/.local/share/spacetime/bin/current`). The submodule tests publish the
+TypeScript module behind `fixtures/module-test-ts`, which is not in this repository. Android requires a running
 emulator and `ANDROID_HOME`; iOS requires Xcode and Apple Silicon. Each runner
 creates isolated keys, CLI config and database data, refuses an occupied port,
 and stops its own server on exit. See [platform smoke tests](platform-smoke-tests/README.md).
