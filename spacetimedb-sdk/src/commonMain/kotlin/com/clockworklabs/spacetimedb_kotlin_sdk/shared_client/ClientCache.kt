@@ -2,7 +2,6 @@ package com.clockworklabs.spacetimedb_kotlin_sdk.shared_client
 
 import com.clockworklabs.spacetimedb_kotlin_sdk.shared_client.bsatn.BsatnReader
 import com.clockworklabs.spacetimedb_kotlin_sdk.shared_client.protocol.BsatnRowList
-import com.clockworklabs.spacetimedb_kotlin_sdk.shared_client.protocol.RowSizeHint
 import com.clockworklabs.spacetimedb_kotlin_sdk.shared_client.protocol.TableUpdateRows
 import kotlinx.atomicfu.atomic
 import kotlinx.atomicfu.update
@@ -139,29 +138,14 @@ public class TableCache<Row, Key : Any> private constructor(
     /**
      * Decode rows from a BsatnRowList, capturing raw BSATN bytes per row.
      */
-    private fun decodeRowListWithBytes(rowList: BsatnRowList): List<DecodedRow<Row>> {
-        if (rowList.rowsSize == 0) return emptyList()
-        val reader = rowList.rowsReader
-        val result = mutableListOf<DecodedRow<Row>>()
-        val rowCount = when (val hint = rowList.sizeHint) {
-            is RowSizeHint.FixedSize -> {
-                val rowSize = hint.size.toInt()
-                require(rowSize > 0) { "Server sent FixedSize(0), which violates the protocol invariant" }
-                require(rowList.rowsSize % rowSize == 0) {
-                    "FixedSize row data not evenly divisible: ${rowList.rowsSize} bytes / $rowSize row size"
-                }
-                rowList.rowsSize / rowSize
-            }
-            is RowSizeHint.RowOffsets -> hint.offsets.size
-        }
-        repeat(rowCount) {
-            val startOffset = reader.offset
+    private fun decodeRowListWithBytes(rowList: BsatnRowList): List<DecodedRow<Row>> =
+        rowList.rowReaders().map { reader ->
+            val start = reader.offset
+            val end = start + reader.remaining
+            // Bytes after the known columns belong to columns this client doesn't know; skip them.
             val row = decode(reader)
-            val rawBytes = reader.sliceArray(startOffset, reader.offset)
-            result.add(DecodedRow(row, rawBytes))
+            DecodedRow(row, reader.sliceArray(start, end))
         }
-        return result
-    }
 
     /** Decodes all rows from a [BsatnRowList], discarding raw bytes. */
     internal fun decodeRowList(rowList: BsatnRowList): List<Row> =

@@ -1,8 +1,9 @@
 # SpacetimeDB Kotlin SDK
 
-> Community fork: maintained at [Kazox61/SpacetimeDB](https://github.com/Kazox61/SpacetimeDB/tree/integration/kotlin-sdk-master),
-> not an officially released Clockwork Labs SDK. See [community setup and publishing](COMMUNITY.md)
-> for working local installation instructions. Public Maven availability is not assumed.
+> Community SDK, not an officially released Clockwork Labs SDK. Targets SpacetimeDB 2.16.3.
+> Moved out of the Kazox61/SpacetimeDB fork on 2026-11-25; the Kotlin code generator is being
+> rewritten in Kotlin here, and until then generation still needs the fork's CLI.
+> See [community setup and publishing](COMMUNITY.md) for local installation.
 
 Kotlin Multiplatform client SDK for [SpacetimeDB](https://spacetimedb.com). Connects to a SpacetimeDB module over WebSocket, synchronizes table state into an in-memory client cache, and provides typed access to tables, reducers, and procedures via generated bindings.
 

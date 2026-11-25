@@ -41,8 +41,8 @@ publishing {
         pom {
             name.set("SpacetimeDB Community Kotlin SDK")
             description.set("Community-maintained Kotlin Multiplatform client for SpacetimeDB")
-            url.set("https://github.com/Kazox61/SpacetimeDB")
-            scm { url.set("https://github.com/Kazox61/SpacetimeDB") }
+            url.set("https://github.com/Kazox61/spacetimedb-kotlin")
+            scm { url.set("https://github.com/Kazox61/spacetimedb-kotlin") }
         }
     }
 }

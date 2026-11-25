@@ -12,7 +12,7 @@ import com.clockworklabs.spacetimedb_kotlin_sdk.shared_client.bsatn.BsatnReader
 public sealed interface RowSizeHint {
     /** All rows have the same fixed byte size. */
     public data class FixedSize(val size: UShort) : RowSizeHint
-    /** Variable-size rows; offsets indicate where each row ends. */
+    /** Variable-size rows; `offsets[i]` is where row `i` starts, and it ends where the next row starts. */
     public data class RowOffsets(val offsets: List<ULong>) : RowSizeHint
 
     public companion object {
@@ -44,6 +44,36 @@ public class BsatnRowList(
 
     /** Creates a fresh [BsatnReader] over the row data. Safe to call multiple times. */
     public val rowsReader: BsatnReader get() = BsatnReader(rowsData, rowsOffset, rowsLimit)
+
+    /**
+     * One reader per row, each limited to that row's bytes as given by [sizeHint].
+     *
+     * The server's row boundaries are part of the protocol: a module can append columns to a table,
+     * so a row can be longer than the generated decoder expects. Decoding each row from its own
+     * slice keeps the next row's start correct; callers ignore whatever is left in a row's reader.
+     */
+    internal fun rowReaders(): List<BsatnReader> {
+        if (rowsSize == 0) return emptyList()
+        val starts: List<Int> = when (val hint = sizeHint) {
+            is RowSizeHint.FixedSize -> {
+                val rowSize = hint.size.toInt()
+                require(rowSize > 0) { "Server sent FixedSize(0), which violates the protocol invariant" }
+                require(rowsSize % rowSize == 0) {
+                    "FixedSize row data not evenly divisible: $rowsSize bytes / $rowSize row size"
+                }
+                (0 until rowsSize / rowSize).map { it * rowSize }
+            }
+            is RowSizeHint.RowOffsets -> hint.offsets.map { offset ->
+                require(offset < rowsSize.toULong()) { "Row offset $offset is outside the row data ($rowsSize bytes)" }
+                offset.toInt()
+            }
+        }
+        return starts.mapIndexed { i, start ->
+            val end = starts.getOrNull(i + 1) ?: rowsSize
+            require(end >= start) { "Row offsets are not ascending: $start then $end" }
+            BsatnReader(rowsData, rowsOffset + start, rowsOffset + end)
+        }
+    }
 
     public companion object {
         /** Decodes a [BsatnRowList] from BSATN. */
