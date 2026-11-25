@@ -1,0 +1,708 @@
+{
+  "cases": {
+    "1st": {
+      "camel": "1St",
+      "pascal": "1St",
+      "snake": "1_st"
+    },
+    "ABC123def": {
+      "camel": "abc123Def",
+      "pascal": "Abc123Def",
+      "snake": "abc_123_def"
+    },
+    "ABc": {
+      "camel": "aBc",
+      "pascal": "ABc",
+      "snake": "a_bc"
+    },
+    "Ab": {
+      "camel": "ab",
+      "pascal": "Ab",
+      "snake": "ab"
+    },
+    "AddPerson2": {
+      "camel": "addPerson2",
+      "pascal": "AddPerson2",
+      "snake": "add_person_2"
+    },
+    "BanPlayer1": {
+      "camel": "banPlayer1",
+      "pascal": "BanPlayer1",
+      "snake": "ban_player_1"
+    },
+    "CreatePlayer1": {
+      "camel": "createPlayer1",
+      "pascal": "CreatePlayer1",
+      "snake": "create_player_1"
+    },
+    "HTTPServer": {
+      "camel": "httpServer",
+      "pascal": "HttpServer",
+      "snake": "http_server"
+    },
+    "ID": {
+      "camel": "id",
+      "pascal": "Id",
+      "snake": "id"
+    },
+    "IOError": {
+      "camel": "ioError",
+      "pascal": "IoError",
+      "snake": "io_error"
+    },
+    "Level2Person": {
+      "camel": "level2Person",
+      "pascal": "Level2Person",
+      "snake": "level_2_person"
+    },
+    "MyLib": {
+      "camel": "myLib",
+      "pascal": "MyLib",
+      "snake": "my_lib"
+    },
+    "PascalCaseName": {
+      "camel": "pascalCaseName",
+      "pascal": "PascalCaseName",
+      "snake": "pascal_case_name"
+    },
+    "Person2": {
+      "camel": "person2",
+      "pascal": "Person2",
+      "snake": "person_2"
+    },
+    "Person2Id": {
+      "camel": "person2Id",
+      "pascal": "Person2Id",
+      "snake": "person_2_id"
+    },
+    "Person3Info": {
+      "camel": "person3Info",
+      "pascal": "Person3Info",
+      "snake": "person_3_info"
+    },
+    "Player1": {
+      "camel": "player1",
+      "pascal": "Player1",
+      "snake": "player_1"
+    },
+    "Player1Canonical": {
+      "camel": "player1Canonical",
+      "pascal": "Player1Canonical",
+      "snake": "player_1_canonical"
+    },
+    "Player1Id": {
+      "camel": "player1Id",
+      "pascal": "Player1Id",
+      "snake": "player_1_id"
+    },
+    "Player2Status": {
+      "camel": "player2Status",
+      "pascal": "Player2Status",
+      "snake": "player_2_status"
+    },
+    "SCREAMING_CASE": {
+      "camel": "screamingCase",
+      "pascal": "ScreamingCase",
+      "snake": "screaming_case"
+    },
+    "UserId": {
+      "camel": "userId",
+      "pascal": "UserId",
+      "snake": "user_id"
+    },
+    "V2": {
+      "camel": "v2",
+      "pascal": "V2",
+      "snake": "v_2"
+    },
+    "Vec3": {
+      "camel": "vec3",
+      "pascal": "Vec3",
+      "snake": "vec_3"
+    },
+    "X": {
+      "camel": "x",
+      "pascal": "X",
+      "snake": "x"
+    },
+    "__identity__": {
+      "camel": "identity",
+      "pascal": "Identity",
+      "snake": "identity"
+    },
+    "_leading": {
+      "camel": "leading",
+      "pascal": "Leading",
+      "snake": "leading"
+    },
+    "aB": {
+      "camel": "aB",
+      "pascal": "AB",
+      "snake": "a_b"
+    },
+    "aBC": {
+      "camel": "aBc",
+      "pascal": "ABc",
+      "snake": "a_bc"
+    },
+    "a_b-c": {
+      "camel": "aBC",
+      "pascal": "ABC",
+      "snake": "a_b_c"
+    },
+    "active1": {
+      "camel": "active1",
+      "pascal": "Active1",
+      "snake": "active_1"
+    },
+    "add_person_2": {
+      "camel": "addPerson2",
+      "pascal": "AddPerson2",
+      "snake": "add_person_2"
+    },
+    "age_value": {
+      "camel": "ageValue",
+      "pascal": "AgeValue",
+      "snake": "age_value"
+    },
+    "age_value_1": {
+      "camel": "ageValue1",
+      "pascal": "AgeValue1",
+      "snake": "age_value_1"
+    },
+    "already_snake_2": {
+      "camel": "alreadySnake2",
+      "pascal": "AlreadySnake2",
+      "snake": "already_snake_2"
+    },
+    "banPlayer1": {
+      "camel": "banPlayer1",
+      "pascal": "BanPlayer1",
+      "snake": "ban_player_1"
+    },
+    "ban_until_6": {
+      "camel": "banUntil6",
+      "pascal": "BanUntil6",
+      "snake": "ban_until_6"
+    },
+    "bannedUntil": {
+      "camel": "bannedUntil",
+      "pascal": "BannedUntil",
+      "snake": "banned_until"
+    },
+    "camelCaseName": {
+      "camel": "camelCaseName",
+      "pascal": "CamelCaseName",
+      "snake": "camel_case_name"
+    },
+    "create_player_1": {
+      "camel": "createPlayer1",
+      "pascal": "CreatePlayer1",
+      "snake": "create_player_1"
+    },
+    "current_level_2": {
+      "camel": "currentLevel2",
+      "pascal": "CurrentLevel2",
+      "snake": "current_level_2"
+    },
+    "double__underscore": {
+      "camel": "doubleUnderscore",
+      "pascal": "DoubleUnderscore",
+      "snake": "double_underscore"
+    },
+    "first_3_name": {
+      "camel": "first3Name",
+      "pascal": "First3Name",
+      "snake": "first_3_name"
+    },
+    "first_name": {
+      "camel": "firstName",
+      "pascal": "FirstName",
+      "snake": "first_name"
+    },
+    "httpServer": {
+      "camel": "httpServer",
+      "pascal": "HttpServer",
+      "snake": "http_server"
+    },
+    "id": {
+      "camel": "id",
+      "pascal": "Id",
+      "snake": "id"
+    },
+    "kebab-case-name": {
+      "camel": "kebabCaseName",
+      "pascal": "KebabCaseName",
+      "snake": "kebab_case_name"
+    },
+    "mixed_UPPER_lower": {
+      "camel": "mixedUpperLower",
+      "pascal": "MixedUpperLower",
+      "snake": "mixed_upper_lower"
+    },
+    "myLib": {
+      "camel": "myLib",
+      "pascal": "MyLib",
+      "snake": "my_lib"
+    },
+    "my_lib": {
+      "camel": "myLib",
+      "pascal": "MyLib",
+      "snake": "my_lib"
+    },
+    "number1st": {
+      "camel": "number1St",
+      "pascal": "Number1St",
+      "snake": "number_1_st"
+    },
+    "person2": {
+      "camel": "person2",
+      "pascal": "Person2",
+      "snake": "person_2"
+    },
+    "person_2": {
+      "camel": "person2",
+      "pascal": "Person2",
+      "snake": "person_2"
+    },
+    "person_2_id": {
+      "camel": "person2Id",
+      "pascal": "Person2Id",
+      "snake": "person_2_id"
+    },
+    "person_at_level_2": {
+      "camel": "personAtLevel2",
+      "pascal": "PersonAtLevel2",
+      "snake": "person_at_level_2"
+    },
+    "person_info": {
+      "camel": "personInfo",
+      "pascal": "PersonInfo",
+      "snake": "person_info"
+    },
+    "player1": {
+      "camel": "player1",
+      "pascal": "Player1",
+      "snake": "player_1"
+    },
+    "playerRef": {
+      "camel": "playerRef",
+      "pascal": "PlayerRef",
+      "snake": "player_ref"
+    },
+    "player_1_id": {
+      "camel": "player1Id",
+      "pascal": "Player1Id",
+      "snake": "player_1_id"
+    },
+    "player_1_name": {
+      "camel": "player1Name",
+      "pascal": "Player1Name",
+      "snake": "player_1_name"
+    },
+    "player_name": {
+      "camel": "playerName",
+      "pascal": "PlayerName",
+      "snake": "player_name"
+    },
+    "player_ref": {
+      "camel": "playerRef",
+      "pascal": "PlayerRef",
+      "snake": "player_ref"
+    },
+    "score_total": {
+      "camel": "scoreTotal",
+      "pascal": "ScoreTotal",
+      "snake": "score_total"
+    },
+    "snake_case_name": {
+      "camel": "snakeCaseName",
+      "pascal": "SnakeCaseName",
+      "snake": "snake_case_name"
+    },
+    "start_2_level": {
+      "camel": "start2Level",
+      "pascal": "Start2Level",
+      "snake": "start_2_level"
+    },
+    "status_3_field": {
+      "camel": "status3Field",
+      "pascal": "Status3Field",
+      "snake": "status_3_field"
+    },
+    "table_v2": {
+      "camel": "tableV2",
+      "pascal": "TableV2",
+      "snake": "table_v_2"
+    },
+    "trailing_": {
+      "camel": "trailing",
+      "pascal": "Trailing",
+      "snake": "trailing"
+    },
+    "u8_array": {
+      "camel": "u8Array",
+      "pascal": "U8Array",
+      "snake": "u_8_array"
+    },
+    "user2Name": {
+      "camel": "user2Name",
+      "pascal": "User2Name",
+      "snake": "user_2_name"
+    },
+    "userID": {
+      "camel": "userId",
+      "pascal": "UserId",
+      "snake": "user_id"
+    },
+    "user_2_name": {
+      "camel": "user2Name",
+      "pascal": "User2Name",
+      "snake": "user_2_name"
+    },
+    "v2": {
+      "camel": "v2",
+      "pascal": "V2",
+      "snake": "v_2"
+    },
+    "v2_table": {
+      "camel": "v2Table",
+      "pascal": "V2Table",
+      "snake": "v_2_table"
+    },
+    "vec3d": {
+      "camel": "vec3D",
+      "pascal": "Vec3D",
+      "snake": "vec_3_d"
+    },
+    "with space": {
+      "camel": "withSpace",
+      "pascal": "WithSpace",
+      "snake": "with_space"
+    },
+    "x": {
+      "camel": "x",
+      "pascal": "X",
+      "snake": "x"
+    }
+  },
+  "model": {
+    "accessor_path_segments": [],
+    "path": "",
+    "path_segments": [],
+    "procedures": [],
+    "reducers": [
+      {
+        "accessor_name": "AddPerson2",
+        "lifecycle": null,
+        "name": "add_person_2",
+        "params_for_generate": [
+          {
+            "name": "first_3_name",
+            "type": "String"
+          },
+          {
+            "name": "player_ref",
+            "type": {
+              "Primitive": "U32"
+            }
+          },
+          {
+            "name": "age_value",
+            "type": {
+              "Primitive": "U8"
+            }
+          },
+          {
+            "name": "score_total",
+            "type": {
+              "Primitive": "U32"
+            }
+          }
+        ],
+        "private": false
+      },
+      {
+        "accessor_name": "BanPlayer1",
+        "lifecycle": null,
+        "name": "banPlayer1",
+        "params_for_generate": [
+          {
+            "name": "player_1_id",
+            "type": {
+              "Primitive": "U32"
+            }
+          },
+          {
+            "name": "ban_until_6",
+            "type": {
+              "Primitive": "U32"
+            }
+          }
+        ],
+        "private": false
+      },
+      {
+        "accessor_name": "CreatePlayer1",
+        "lifecycle": null,
+        "name": "create_player_1",
+        "params_for_generate": [
+          {
+            "name": "player_1_name",
+            "type": "String"
+          },
+          {
+            "name": "start_2_level",
+            "type": {
+              "Primitive": "U32"
+            }
+          }
+        ],
+        "private": false
+      }
+    ],
+    "submodules": [],
+    "tables": [
+      {
+        "accessor_name": "player1",
+        "columns": [
+          {
+            "accessor_name": "player_1_id",
+            "name": "player_1_id"
+          },
+          {
+            "accessor_name": "player_name",
+            "name": "player_name"
+          },
+          {
+            "accessor_name": "current_level_2",
+            "name": "current_level_2"
+          },
+          {
+            "accessor_name": "status_3_field",
+            "name": "status_3_field"
+          }
+        ],
+        "indexes": [
+          {
+            "accessor_name": "Player1Id",
+            "algorithm": "BTree",
+            "columns": [
+              0
+            ],
+            "is_unique": true,
+            "name": "Player1Canonical_player_1_id_idx_btree"
+          }
+        ],
+        "is_event": false,
+        "name": "Player1Canonical",
+        "primary_key": 0,
+        "product_type_ref": 2,
+        "public": true
+      },
+      {
+        "accessor_name": "person2",
+        "columns": [
+          {
+            "accessor_name": "person_2_id",
+            "name": "person_2_id"
+          },
+          {
+            "accessor_name": "first_name",
+            "name": "first_name"
+          },
+          {
+            "accessor_name": "player_ref",
+            "name": "player_ref"
+          },
+          {
+            "accessor_name": "person_info",
+            "name": "person_info"
+          }
+        ],
+        "indexes": [
+          {
+            "accessor_name": "Person2Id",
+            "algorithm": "BTree",
+            "columns": [
+              0
+            ],
+            "is_unique": true,
+            "name": "person_2_person_2_id_idx_btree"
+          },
+          {
+            "accessor_name": "playerRef",
+            "algorithm": "BTree",
+            "columns": [
+              2
+            ],
+            "is_unique": false,
+            "name": "person_2_player_ref_idx_btree"
+          }
+        ],
+        "is_event": false,
+        "name": "person_2",
+        "primary_key": 0,
+        "product_type_ref": 0,
+        "public": true
+      }
+    ],
+    "types": [
+      {
+        "name_segments": [
+          "Person3Info"
+        ],
+        "ref": 1
+      },
+      {
+        "name_segments": [
+          "Person2"
+        ],
+        "ref": 0
+      },
+      {
+        "name_segments": [
+          "Player2Status"
+        ],
+        "ref": 3
+      },
+      {
+        "name_segments": [
+          "Player1"
+        ],
+        "ref": 2
+      }
+    ],
+    "typespace_for_generate": {
+      "0": {
+        "Product": {
+          "elements": [
+            {
+              "name": "person_2_id",
+              "type": {
+                "Primitive": "U32"
+              }
+            },
+            {
+              "name": "first_name",
+              "type": "String"
+            },
+            {
+              "name": "player_ref",
+              "type": {
+                "Primitive": "U32"
+              }
+            },
+            {
+              "name": "person_info",
+              "type": {
+                "Ref": 1
+              }
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "1": {
+        "Product": {
+          "elements": [
+            {
+              "name": "age_value_1",
+              "type": {
+                "Primitive": "U8"
+              }
+            },
+            {
+              "name": "score_total",
+              "type": {
+                "Primitive": "U32"
+              }
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "2": {
+        "Product": {
+          "elements": [
+            {
+              "name": "player_1_id",
+              "type": {
+                "Primitive": "U32"
+              }
+            },
+            {
+              "name": "player_name",
+              "type": "String"
+            },
+            {
+              "name": "current_level_2",
+              "type": {
+                "Primitive": "U32"
+              }
+            },
+            {
+              "name": "status_3_field",
+              "type": {
+                "Ref": 3
+              }
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "3": {
+        "Sum": {
+          "recursive": false,
+          "variants": [
+            {
+              "name": "active1",
+              "type": "Unit"
+            },
+            {
+              "name": "bannedUntil",
+              "type": {
+                "Primitive": "U32"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "views": [
+      {
+        "accessor_name": "person_at_level_2",
+        "as_table": {
+          "accessor_name": "person_at_level_2",
+          "columns": [
+            {
+              "accessor_name": "person_2_id",
+              "name": "person_2_id"
+            },
+            {
+              "accessor_name": "first_name",
+              "name": "first_name"
+            },
+            {
+              "accessor_name": "player_ref",
+              "name": "player_ref"
+            },
+            {
+              "accessor_name": "person_info",
+              "name": "person_info"
+            }
+          ],
+          "indexes": [],
+          "is_event": false,
+          "name": "Level2Person",
+          "primary_key": 0,
+          "product_type_ref": 0,
+          "public": true
+        },
+        "name": "Level2Person",
+        "params": [],
+        "params_for_generate": []
+      }
+    ]
+  }
+}

@@ -4,6 +4,8 @@
 # For each fixture module, writes:
 #   fixtures/<name>/schema.json  - module definition from the stock `spacetimedb-standalone extract-schema`
 #   fixtures/<name>/expected/    - Kotlin bindings from the fork CLI's `generate --lang kotlin`
+#   fixtures/<name>/model.json   - the fork's validated ModuleDef as the generator reads it (scripts/model-dump),
+#                                  the oracle for the Kotlin normalizer
 #
 # Needs: the fork at $SPACETIMEDB_FORK (default ~/dev/SpacetimeDB) with `cargo build -p spacetimedb-cli` done,
 # the fork's TypeScript library built (`pnpm run build` in crates/bindings-typescript),
@@ -17,6 +19,12 @@ fork_cli="$fork/target/debug/spacetimedb-cli"
 standalone="${SPACETIMEDB_STANDALONE:-$HOME/.local/share/spacetime/bin/current/spacetimedb-standalone}"
 
 [ -x "$fork_cli" ] || { echo "fork CLI missing: $fork_cli (cargo build --locked -p spacetimedb-cli)" >&2; exit 1; }
+
+# The oracle tool, built against the fork's crates with the fork's exact dependency versions.
+cp "$fork/Cargo.lock" "$repo/scripts/model-dump/Cargo.lock"
+# Run from its folder: rustup picks the pinned toolchain by working directory.
+(cd "$repo/scripts/model-dump" && CARGO_TARGET_DIR="$fork/target" cargo build -q)
+model_dump="$fork/target/debug/model-dump"
 
 # name, module dir, host type (js | wasm)
 fixtures=(
@@ -52,5 +60,6 @@ for entry in "${fixtures[@]}"; do
 
   "$standalone" extract-schema --host-type "$host" "$artifact" >"$out/schema.json"
   "$fork_cli" generate --lang kotlin "${gen_input[@]}" --out-dir "$out/expected" --yes --no-config >/dev/null
+  "$model_dump" "$out/schema.json" >"$out/model.json"
   echo "   $(find "$out/expected" -type f | wc -l | tr -d ' ') files"
 done

@@ -1,0 +1,1168 @@
+{
+  "cases": {
+    "1st": {
+      "camel": "1St",
+      "pascal": "1St",
+      "snake": "1_st"
+    },
+    "ABC123def": {
+      "camel": "abc123Def",
+      "pascal": "Abc123Def",
+      "snake": "abc_123_def"
+    },
+    "ABc": {
+      "camel": "aBc",
+      "pascal": "ABc",
+      "snake": "a_bc"
+    },
+    "Ab": {
+      "camel": "ab",
+      "pascal": "Ab",
+      "snake": "ab"
+    },
+    "BigIntRow": {
+      "camel": "bigIntRow",
+      "pascal": "BigIntRow",
+      "snake": "big_int_row"
+    },
+    "HTTPServer": {
+      "camel": "httpServer",
+      "pascal": "HttpServer",
+      "snake": "http_server"
+    },
+    "ID": {
+      "camel": "id",
+      "pascal": "Id",
+      "snake": "id"
+    },
+    "IOError": {
+      "camel": "ioError",
+      "pascal": "IoError",
+      "snake": "io_error"
+    },
+    "Message": {
+      "camel": "message",
+      "pascal": "Message",
+      "snake": "message"
+    },
+    "MyLib": {
+      "camel": "myLib",
+      "pascal": "MyLib",
+      "snake": "my_lib"
+    },
+    "Note": {
+      "camel": "note",
+      "pascal": "Note",
+      "snake": "note"
+    },
+    "PascalCaseName": {
+      "camel": "pascalCaseName",
+      "pascal": "PascalCaseName",
+      "snake": "pascal_case_name"
+    },
+    "Reminder": {
+      "camel": "reminder",
+      "pascal": "Reminder",
+      "snake": "reminder"
+    },
+    "SCREAMING_CASE": {
+      "camel": "screamingCase",
+      "pascal": "ScreamingCase",
+      "snake": "screaming_case"
+    },
+    "User": {
+      "camel": "user",
+      "pascal": "User",
+      "snake": "user"
+    },
+    "UserId": {
+      "camel": "userId",
+      "pascal": "UserId",
+      "snake": "user_id"
+    },
+    "V2": {
+      "camel": "v2",
+      "pascal": "V2",
+      "snake": "v_2"
+    },
+    "Vec3": {
+      "camel": "vec3",
+      "pascal": "Vec3",
+      "snake": "vec_3"
+    },
+    "X": {
+      "camel": "x",
+      "pascal": "X",
+      "snake": "x"
+    },
+    "__identity__": {
+      "camel": "identity",
+      "pascal": "Identity",
+      "snake": "identity"
+    },
+    "_leading": {
+      "camel": "leading",
+      "pascal": "Leading",
+      "snake": "leading"
+    },
+    "aB": {
+      "camel": "aB",
+      "pascal": "AB",
+      "snake": "a_b"
+    },
+    "aBC": {
+      "camel": "aBc",
+      "pascal": "ABc",
+      "snake": "a_bc"
+    },
+    "a_b-c": {
+      "camel": "aBC",
+      "pascal": "ABC",
+      "snake": "a_b_c"
+    },
+    "add_note": {
+      "camel": "addNote",
+      "pascal": "AddNote",
+      "snake": "add_note"
+    },
+    "already_snake_2": {
+      "camel": "alreadySnake2",
+      "pascal": "AlreadySnake2",
+      "snake": "already_snake_2"
+    },
+    "big_int_row": {
+      "camel": "bigIntRow",
+      "pascal": "BigIntRow",
+      "snake": "big_int_row"
+    },
+    "camelCaseName": {
+      "camel": "camelCaseName",
+      "pascal": "CamelCaseName",
+      "snake": "camel_case_name"
+    },
+    "cancel_reminder": {
+      "camel": "cancelReminder",
+      "pascal": "CancelReminder",
+      "snake": "cancel_reminder"
+    },
+    "content": {
+      "camel": "content",
+      "pascal": "Content",
+      "snake": "content"
+    },
+    "delay_ms": {
+      "camel": "delayMs",
+      "pascal": "DelayMs",
+      "snake": "delay_ms"
+    },
+    "delete_message": {
+      "camel": "deleteMessage",
+      "pascal": "DeleteMessage",
+      "snake": "delete_message"
+    },
+    "delete_note": {
+      "camel": "deleteNote",
+      "pascal": "DeleteNote",
+      "snake": "delete_note"
+    },
+    "double__underscore": {
+      "camel": "doubleUnderscore",
+      "pascal": "DoubleUnderscore",
+      "snake": "double_underscore"
+    },
+    "greet": {
+      "camel": "greet",
+      "pascal": "Greet",
+      "snake": "greet"
+    },
+    "httpServer": {
+      "camel": "httpServer",
+      "pascal": "HttpServer",
+      "snake": "http_server"
+    },
+    "id": {
+      "camel": "id",
+      "pascal": "Id",
+      "snake": "id"
+    },
+    "identity": {
+      "camel": "identity",
+      "pascal": "Identity",
+      "snake": "identity"
+    },
+    "identity_connected": {
+      "camel": "identityConnected",
+      "pascal": "IdentityConnected",
+      "snake": "identity_connected"
+    },
+    "identity_disconnected": {
+      "camel": "identityDisconnected",
+      "pascal": "IdentityDisconnected",
+      "snake": "identity_disconnected"
+    },
+    "init": {
+      "camel": "init",
+      "pascal": "Init",
+      "snake": "init"
+    },
+    "insert_big_ints": {
+      "camel": "insertBigInts",
+      "pascal": "InsertBigInts",
+      "snake": "insert_big_ints"
+    },
+    "interval_ms": {
+      "camel": "intervalMs",
+      "pascal": "IntervalMs",
+      "snake": "interval_ms"
+    },
+    "kebab-case-name": {
+      "camel": "kebabCaseName",
+      "pascal": "KebabCaseName",
+      "snake": "kebab_case_name"
+    },
+    "message": {
+      "camel": "message",
+      "pascal": "Message",
+      "snake": "message"
+    },
+    "message_id": {
+      "camel": "messageId",
+      "pascal": "MessageId",
+      "snake": "message_id"
+    },
+    "mixed_UPPER_lower": {
+      "camel": "mixedUpperLower",
+      "pascal": "MixedUpperLower",
+      "snake": "mixed_upper_lower"
+    },
+    "myLib": {
+      "camel": "myLib",
+      "pascal": "MyLib",
+      "snake": "my_lib"
+    },
+    "my_lib": {
+      "camel": "myLib",
+      "pascal": "MyLib",
+      "snake": "my_lib"
+    },
+    "my_notes": {
+      "camel": "myNotes",
+      "pascal": "MyNotes",
+      "snake": "my_notes"
+    },
+    "name": {
+      "camel": "name",
+      "pascal": "Name",
+      "snake": "name"
+    },
+    "note": {
+      "camel": "note",
+      "pascal": "Note",
+      "snake": "note"
+    },
+    "note_id": {
+      "camel": "noteId",
+      "pascal": "NoteId",
+      "snake": "note_id"
+    },
+    "notes_by_tag": {
+      "camel": "notesByTag",
+      "pascal": "NotesByTag",
+      "snake": "notes_by_tag"
+    },
+    "number1st": {
+      "camel": "number1St",
+      "pascal": "Number1St",
+      "snake": "number_1_st"
+    },
+    "online": {
+      "camel": "online",
+      "pascal": "Online",
+      "snake": "online"
+    },
+    "owner": {
+      "camel": "owner",
+      "pascal": "Owner",
+      "snake": "owner"
+    },
+    "reminder": {
+      "camel": "reminder",
+      "pascal": "Reminder",
+      "snake": "reminder"
+    },
+    "reminder_id": {
+      "camel": "reminderId",
+      "pascal": "ReminderId",
+      "snake": "reminder_id"
+    },
+    "schedule_reminder": {
+      "camel": "scheduleReminder",
+      "pascal": "ScheduleReminder",
+      "snake": "schedule_reminder"
+    },
+    "schedule_reminder_repeat": {
+      "camel": "scheduleReminderRepeat",
+      "pascal": "ScheduleReminderRepeat",
+      "snake": "schedule_reminder_repeat"
+    },
+    "scheduled_at": {
+      "camel": "scheduledAt",
+      "pascal": "ScheduledAt",
+      "snake": "scheduled_at"
+    },
+    "scheduled_id": {
+      "camel": "scheduledId",
+      "pascal": "ScheduledId",
+      "snake": "scheduled_id"
+    },
+    "send_message": {
+      "camel": "sendMessage",
+      "pascal": "SendMessage",
+      "snake": "send_message"
+    },
+    "send_reminder": {
+      "camel": "sendReminder",
+      "pascal": "SendReminder",
+      "snake": "send_reminder"
+    },
+    "sender": {
+      "camel": "sender",
+      "pascal": "Sender",
+      "snake": "sender"
+    },
+    "sent": {
+      "camel": "sent",
+      "pascal": "Sent",
+      "snake": "sent"
+    },
+    "server_ping": {
+      "camel": "serverPing",
+      "pascal": "ServerPing",
+      "snake": "server_ping"
+    },
+    "set_name": {
+      "camel": "setName",
+      "pascal": "SetName",
+      "snake": "set_name"
+    },
+    "shared_notes": {
+      "camel": "sharedNotes",
+      "pascal": "SharedNotes",
+      "snake": "shared_notes"
+    },
+    "snake_case_name": {
+      "camel": "snakeCaseName",
+      "pascal": "SnakeCaseName",
+      "snake": "snake_case_name"
+    },
+    "table_v2": {
+      "camel": "tableV2",
+      "pascal": "TableV2",
+      "snake": "table_v_2"
+    },
+    "tag": {
+      "camel": "tag",
+      "pascal": "Tag",
+      "snake": "tag"
+    },
+    "text": {
+      "camel": "text",
+      "pascal": "Text",
+      "snake": "text"
+    },
+    "trailing_": {
+      "camel": "trailing",
+      "pascal": "Trailing",
+      "snake": "trailing"
+    },
+    "u8_array": {
+      "camel": "u8Array",
+      "pascal": "U8Array",
+      "snake": "u_8_array"
+    },
+    "update_note": {
+      "camel": "updateNote",
+      "pascal": "UpdateNote",
+      "snake": "update_note"
+    },
+    "user": {
+      "camel": "user",
+      "pascal": "User",
+      "snake": "user"
+    },
+    "user2Name": {
+      "camel": "user2Name",
+      "pascal": "User2Name",
+      "snake": "user_2_name"
+    },
+    "userID": {
+      "camel": "userId",
+      "pascal": "UserId",
+      "snake": "user_id"
+    },
+    "user_2_name": {
+      "camel": "user2Name",
+      "pascal": "User2Name",
+      "snake": "user_2_name"
+    },
+    "v2": {
+      "camel": "v2",
+      "pascal": "V2",
+      "snake": "v_2"
+    },
+    "v2_table": {
+      "camel": "v2Table",
+      "pascal": "V2Table",
+      "snake": "v_2_table"
+    },
+    "val_i_128": {
+      "camel": "valI128",
+      "pascal": "ValI128",
+      "snake": "val_i_128"
+    },
+    "val_i_256": {
+      "camel": "valI256",
+      "pascal": "ValI256",
+      "snake": "val_i_256"
+    },
+    "val_u_128": {
+      "camel": "valU128",
+      "pascal": "ValU128",
+      "snake": "val_u_128"
+    },
+    "val_u_256": {
+      "camel": "valU256",
+      "pascal": "ValU256",
+      "snake": "val_u_256"
+    },
+    "vec3d": {
+      "camel": "vec3D",
+      "pascal": "Vec3D",
+      "snake": "vec_3_d"
+    },
+    "with space": {
+      "camel": "withSpace",
+      "pascal": "WithSpace",
+      "snake": "with_space"
+    },
+    "x": {
+      "camel": "x",
+      "pascal": "X",
+      "snake": "x"
+    }
+  },
+  "model": {
+    "accessor_path_segments": [],
+    "path": "",
+    "path_segments": [],
+    "procedures": [
+      {
+        "accessor_name": "greet",
+        "name": "greet",
+        "params_for_generate": [
+          {
+            "name": "name",
+            "type": "String"
+          }
+        ],
+        "private": false,
+        "return_type_for_generate": "String"
+      },
+      {
+        "accessor_name": "server_ping",
+        "name": "server_ping",
+        "params_for_generate": [],
+        "private": false,
+        "return_type_for_generate": "String"
+      }
+    ],
+    "reducers": [
+      {
+        "accessor_name": "add_note",
+        "lifecycle": null,
+        "name": "add_note",
+        "params_for_generate": [
+          {
+            "name": "content",
+            "type": "String"
+          },
+          {
+            "name": "tag",
+            "type": "String"
+          }
+        ],
+        "private": false
+      },
+      {
+        "accessor_name": "cancel_reminder",
+        "lifecycle": null,
+        "name": "cancel_reminder",
+        "params_for_generate": [
+          {
+            "name": "reminder_id",
+            "type": {
+              "Primitive": "U64"
+            }
+          }
+        ],
+        "private": false
+      },
+      {
+        "accessor_name": "delete_message",
+        "lifecycle": null,
+        "name": "delete_message",
+        "params_for_generate": [
+          {
+            "name": "message_id",
+            "type": {
+              "Primitive": "U64"
+            }
+          }
+        ],
+        "private": false
+      },
+      {
+        "accessor_name": "delete_note",
+        "lifecycle": null,
+        "name": "delete_note",
+        "params_for_generate": [
+          {
+            "name": "note_id",
+            "type": {
+              "Primitive": "U64"
+            }
+          }
+        ],
+        "private": false
+      },
+      {
+        "accessor_name": "identity_connected",
+        "lifecycle": "OnConnect",
+        "name": "identity_connected",
+        "params_for_generate": [],
+        "private": true
+      },
+      {
+        "accessor_name": "identity_disconnected",
+        "lifecycle": "OnDisconnect",
+        "name": "identity_disconnected",
+        "params_for_generate": [],
+        "private": true
+      },
+      {
+        "accessor_name": "init",
+        "lifecycle": "Init",
+        "name": "init",
+        "params_for_generate": [],
+        "private": true
+      },
+      {
+        "accessor_name": "insert_big_ints",
+        "lifecycle": null,
+        "name": "insert_big_ints",
+        "params_for_generate": [
+          {
+            "name": "val_i_128",
+            "type": {
+              "Primitive": "I128"
+            }
+          },
+          {
+            "name": "val_u_128",
+            "type": {
+              "Primitive": "U128"
+            }
+          },
+          {
+            "name": "val_i_256",
+            "type": {
+              "Primitive": "I256"
+            }
+          },
+          {
+            "name": "val_u_256",
+            "type": {
+              "Primitive": "U256"
+            }
+          }
+        ],
+        "private": false
+      },
+      {
+        "accessor_name": "schedule_reminder",
+        "lifecycle": null,
+        "name": "schedule_reminder",
+        "params_for_generate": [
+          {
+            "name": "text",
+            "type": "String"
+          },
+          {
+            "name": "delay_ms",
+            "type": {
+              "Primitive": "U64"
+            }
+          }
+        ],
+        "private": false
+      },
+      {
+        "accessor_name": "schedule_reminder_repeat",
+        "lifecycle": null,
+        "name": "schedule_reminder_repeat",
+        "params_for_generate": [
+          {
+            "name": "text",
+            "type": "String"
+          },
+          {
+            "name": "interval_ms",
+            "type": {
+              "Primitive": "U64"
+            }
+          }
+        ],
+        "private": false
+      },
+      {
+        "accessor_name": "send_message",
+        "lifecycle": null,
+        "name": "send_message",
+        "params_for_generate": [
+          {
+            "name": "text",
+            "type": "String"
+          }
+        ],
+        "private": false
+      },
+      {
+        "accessor_name": "send_reminder",
+        "lifecycle": null,
+        "name": "send_reminder",
+        "params_for_generate": [
+          {
+            "name": "reminder",
+            "type": {
+              "Ref": 3
+            }
+          }
+        ],
+        "private": true
+      },
+      {
+        "accessor_name": "set_name",
+        "lifecycle": null,
+        "name": "set_name",
+        "params_for_generate": [
+          {
+            "name": "name",
+            "type": "String"
+          }
+        ],
+        "private": false
+      },
+      {
+        "accessor_name": "update_note",
+        "lifecycle": null,
+        "name": "update_note",
+        "params_for_generate": [
+          {
+            "name": "note_id",
+            "type": {
+              "Primitive": "U64"
+            }
+          },
+          {
+            "name": "content",
+            "type": "String"
+          }
+        ],
+        "private": false
+      }
+    ],
+    "submodules": [],
+    "tables": [
+      {
+        "accessor_name": "user",
+        "columns": [
+          {
+            "accessor_name": "identity",
+            "name": "identity"
+          },
+          {
+            "accessor_name": "name",
+            "name": "name"
+          },
+          {
+            "accessor_name": "online",
+            "name": "online"
+          }
+        ],
+        "indexes": [
+          {
+            "accessor_name": "identity",
+            "algorithm": "BTree",
+            "columns": [
+              0
+            ],
+            "is_unique": true,
+            "name": "user_identity_idx_btree"
+          }
+        ],
+        "is_event": false,
+        "name": "user",
+        "primary_key": 0,
+        "product_type_ref": 4,
+        "public": true
+      },
+      {
+        "accessor_name": "note",
+        "columns": [
+          {
+            "accessor_name": "id",
+            "name": "id"
+          },
+          {
+            "accessor_name": "owner",
+            "name": "owner"
+          },
+          {
+            "accessor_name": "content",
+            "name": "content"
+          },
+          {
+            "accessor_name": "tag",
+            "name": "tag"
+          }
+        ],
+        "indexes": [
+          {
+            "accessor_name": "id",
+            "algorithm": "BTree",
+            "columns": [
+              0
+            ],
+            "is_unique": true,
+            "name": "note_id_idx_btree"
+          },
+          {
+            "accessor_name": "owner",
+            "algorithm": "BTree",
+            "columns": [
+              1
+            ],
+            "is_unique": false,
+            "name": "note_owner_idx_btree"
+          },
+          {
+            "accessor_name": "tag",
+            "algorithm": "BTree",
+            "columns": [
+              3
+            ],
+            "is_unique": false,
+            "name": "note_tag_idx_btree"
+          }
+        ],
+        "is_event": false,
+        "name": "note",
+        "primary_key": 0,
+        "product_type_ref": 2,
+        "public": true
+      },
+      {
+        "accessor_name": "message",
+        "columns": [
+          {
+            "accessor_name": "id",
+            "name": "id"
+          },
+          {
+            "accessor_name": "sender",
+            "name": "sender"
+          },
+          {
+            "accessor_name": "sent",
+            "name": "sent"
+          },
+          {
+            "accessor_name": "text",
+            "name": "text"
+          }
+        ],
+        "indexes": [
+          {
+            "accessor_name": "id",
+            "algorithm": "BTree",
+            "columns": [
+              0
+            ],
+            "is_unique": true,
+            "name": "message_id_idx_btree"
+          }
+        ],
+        "is_event": false,
+        "name": "message",
+        "primary_key": 0,
+        "product_type_ref": 1,
+        "public": true
+      },
+      {
+        "accessor_name": "big_int_row",
+        "columns": [
+          {
+            "accessor_name": "id",
+            "name": "id"
+          },
+          {
+            "accessor_name": "val_i_128",
+            "name": "val_i_128"
+          },
+          {
+            "accessor_name": "val_u_128",
+            "name": "val_u_128"
+          },
+          {
+            "accessor_name": "val_i_256",
+            "name": "val_i_256"
+          },
+          {
+            "accessor_name": "val_u_256",
+            "name": "val_u_256"
+          }
+        ],
+        "indexes": [
+          {
+            "accessor_name": "id",
+            "algorithm": "BTree",
+            "columns": [
+              0
+            ],
+            "is_unique": true,
+            "name": "big_int_row_id_idx_btree"
+          }
+        ],
+        "is_event": false,
+        "name": "big_int_row",
+        "primary_key": 0,
+        "product_type_ref": 0,
+        "public": true
+      },
+      {
+        "accessor_name": "reminder",
+        "columns": [
+          {
+            "accessor_name": "scheduled_id",
+            "name": "scheduled_id"
+          },
+          {
+            "accessor_name": "scheduled_at",
+            "name": "scheduled_at"
+          },
+          {
+            "accessor_name": "text",
+            "name": "text"
+          },
+          {
+            "accessor_name": "owner",
+            "name": "owner"
+          }
+        ],
+        "indexes": [
+          {
+            "accessor_name": "scheduled_id",
+            "algorithm": "BTree",
+            "columns": [
+              0
+            ],
+            "is_unique": true,
+            "name": "reminder_scheduled_id_idx_btree"
+          }
+        ],
+        "is_event": false,
+        "name": "reminder",
+        "primary_key": 0,
+        "product_type_ref": 3,
+        "public": true
+      }
+    ],
+    "types": [
+      {
+        "name_segments": [
+          "Reminder"
+        ],
+        "ref": 3
+      },
+      {
+        "name_segments": [
+          "Note"
+        ],
+        "ref": 2
+      },
+      {
+        "name_segments": [
+          "User"
+        ],
+        "ref": 4
+      },
+      {
+        "name_segments": [
+          "BigIntRow"
+        ],
+        "ref": 0
+      },
+      {
+        "name_segments": [
+          "Message"
+        ],
+        "ref": 1
+      }
+    ],
+    "typespace_for_generate": {
+      "0": {
+        "Product": {
+          "elements": [
+            {
+              "name": "id",
+              "type": {
+                "Primitive": "U64"
+              }
+            },
+            {
+              "name": "val_i_128",
+              "type": {
+                "Primitive": "I128"
+              }
+            },
+            {
+              "name": "val_u_128",
+              "type": {
+                "Primitive": "U128"
+              }
+            },
+            {
+              "name": "val_i_256",
+              "type": {
+                "Primitive": "I256"
+              }
+            },
+            {
+              "name": "val_u_256",
+              "type": {
+                "Primitive": "U256"
+              }
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "1": {
+        "Product": {
+          "elements": [
+            {
+              "name": "id",
+              "type": {
+                "Primitive": "U64"
+              }
+            },
+            {
+              "name": "sender",
+              "type": "Identity"
+            },
+            {
+              "name": "sent",
+              "type": "Timestamp"
+            },
+            {
+              "name": "text",
+              "type": "String"
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "2": {
+        "Product": {
+          "elements": [
+            {
+              "name": "id",
+              "type": {
+                "Primitive": "U64"
+              }
+            },
+            {
+              "name": "owner",
+              "type": "Identity"
+            },
+            {
+              "name": "content",
+              "type": "String"
+            },
+            {
+              "name": "tag",
+              "type": "String"
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "3": {
+        "Product": {
+          "elements": [
+            {
+              "name": "scheduled_id",
+              "type": {
+                "Primitive": "U64"
+              }
+            },
+            {
+              "name": "scheduled_at",
+              "type": "ScheduleAt"
+            },
+            {
+              "name": "text",
+              "type": "String"
+            },
+            {
+              "name": "owner",
+              "type": "Identity"
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "4": {
+        "Product": {
+          "elements": [
+            {
+              "name": "identity",
+              "type": "Identity"
+            },
+            {
+              "name": "name",
+              "type": {
+                "Option": "String"
+              }
+            },
+            {
+              "name": "online",
+              "type": {
+                "Primitive": "Bool"
+              }
+            }
+          ],
+          "recursive": false
+        }
+      }
+    },
+    "views": [
+      {
+        "accessor_name": "my_notes",
+        "as_table": {
+          "accessor_name": "my_notes",
+          "columns": [
+            {
+              "accessor_name": "id",
+              "name": "id"
+            },
+            {
+              "accessor_name": "owner",
+              "name": "owner"
+            },
+            {
+              "accessor_name": "content",
+              "name": "content"
+            },
+            {
+              "accessor_name": "tag",
+              "name": "tag"
+            }
+          ],
+          "indexes": [],
+          "is_event": false,
+          "name": "my_notes",
+          "primary_key": null,
+          "product_type_ref": 2,
+          "public": true
+        },
+        "name": "my_notes",
+        "params": [],
+        "params_for_generate": []
+      },
+      {
+        "accessor_name": "notes_by_tag",
+        "as_table": {
+          "accessor_name": "notes_by_tag",
+          "columns": [
+            {
+              "accessor_name": "id",
+              "name": "id"
+            },
+            {
+              "accessor_name": "owner",
+              "name": "owner"
+            },
+            {
+              "accessor_name": "content",
+              "name": "content"
+            },
+            {
+              "accessor_name": "tag",
+              "name": "tag"
+            }
+          ],
+          "indexes": [],
+          "is_event": false,
+          "name": "notes_by_tag",
+          "primary_key": null,
+          "product_type_ref": 2,
+          "public": true
+        },
+        "name": "notes_by_tag",
+        "params": [
+          "tag"
+        ],
+        "params_for_generate": [
+          {
+            "name": "tag",
+            "type": "String"
+          }
+        ]
+      },
+      {
+        "accessor_name": "shared_notes",
+        "as_table": {
+          "accessor_name": "shared_notes",
+          "columns": [
+            {
+              "accessor_name": "id",
+              "name": "id"
+            },
+            {
+              "accessor_name": "owner",
+              "name": "owner"
+            },
+            {
+              "accessor_name": "content",
+              "name": "content"
+            },
+            {
+              "accessor_name": "tag",
+              "name": "tag"
+            }
+          ],
+          "indexes": [],
+          "is_event": false,
+          "name": "shared_notes",
+          "primary_key": 0,
+          "product_type_ref": 2,
+          "public": true
+        },
+        "name": "shared_notes",
+        "params": [],
+        "params_for_generate": []
+      }
+    ]
+  }
+}

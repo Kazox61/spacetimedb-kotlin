@@ -1,0 +1,2014 @@
+{
+  "cases": {
+    "1st": {
+      "camel": "1St",
+      "pascal": "1St",
+      "snake": "1_st"
+    },
+    "ABC123def": {
+      "camel": "abc123Def",
+      "pascal": "Abc123Def",
+      "snake": "abc_123_def"
+    },
+    "ABc": {
+      "camel": "aBc",
+      "pascal": "ABc",
+      "snake": "a_bc"
+    },
+    "Ab": {
+      "camel": "ab",
+      "pascal": "Ab",
+      "snake": "ab"
+    },
+    "Baz": {
+      "camel": "baz",
+      "pascal": "Baz",
+      "snake": "baz"
+    },
+    "Foobar": {
+      "camel": "foobar",
+      "pascal": "Foobar",
+      "snake": "foobar"
+    },
+    "HTTPServer": {
+      "camel": "httpServer",
+      "pascal": "HttpServer",
+      "snake": "http_server"
+    },
+    "HasSpecialStuff": {
+      "camel": "hasSpecialStuff",
+      "pascal": "HasSpecialStuff",
+      "snake": "has_special_stuff"
+    },
+    "ID": {
+      "camel": "id",
+      "pascal": "Id",
+      "snake": "id"
+    },
+    "IOError": {
+      "camel": "ioError",
+      "pascal": "IoError",
+      "snake": "io_error"
+    },
+    "IdcNoopOutbox": {
+      "camel": "idcNoopOutbox",
+      "pascal": "IdcNoopOutbox",
+      "snake": "idc_noop_outbox"
+    },
+    "IdcOutbox": {
+      "camel": "idcOutbox",
+      "pascal": "IdcOutbox",
+      "snake": "idc_outbox"
+    },
+    "MyLib": {
+      "camel": "myLib",
+      "pascal": "MyLib",
+      "snake": "my_lib"
+    },
+    "Namespace": {
+      "camel": "namespace",
+      "pascal": "Namespace",
+      "snake": "namespace"
+    },
+    "NonrepeatingTestArg": {
+      "camel": "nonrepeatingTestArg",
+      "pascal": "NonrepeatingTestArg",
+      "snake": "nonrepeating_test_arg"
+    },
+    "PascalCaseName": {
+      "camel": "pascalCaseName",
+      "pascal": "PascalCaseName",
+      "snake": "pascal_case_name"
+    },
+    "Person": {
+      "camel": "person",
+      "pascal": "Person",
+      "snake": "person"
+    },
+    "PkMultiIdentity": {
+      "camel": "pkMultiIdentity",
+      "pascal": "PkMultiIdentity",
+      "snake": "pk_multi_identity"
+    },
+    "Player": {
+      "camel": "player",
+      "pascal": "Player",
+      "snake": "player"
+    },
+    "Point": {
+      "camel": "point",
+      "pascal": "Point",
+      "snake": "point"
+    },
+    "PrivateTable": {
+      "camel": "privateTable",
+      "pascal": "PrivateTable",
+      "snake": "private_table"
+    },
+    "RemoveTable": {
+      "camel": "removeTable",
+      "pascal": "RemoveTable",
+      "snake": "remove_table"
+    },
+    "RepeatingTestArg": {
+      "camel": "repeatingTestArg",
+      "pascal": "RepeatingTestArg",
+      "snake": "repeating_test_arg"
+    },
+    "SCREAMING_CASE": {
+      "camel": "screamingCase",
+      "pascal": "ScreamingCase",
+      "snake": "screaming_case"
+    },
+    "TestA": {
+      "camel": "testA",
+      "pascal": "TestA",
+      "snake": "test_a"
+    },
+    "TestB": {
+      "camel": "testB",
+      "pascal": "TestB",
+      "snake": "test_b"
+    },
+    "TestC": {
+      "camel": "testC",
+      "pascal": "TestC",
+      "snake": "test_c"
+    },
+    "TestD": {
+      "camel": "testD",
+      "pascal": "TestD",
+      "snake": "test_d"
+    },
+    "TestE": {
+      "camel": "testE",
+      "pascal": "TestE",
+      "snake": "test_e"
+    },
+    "TestF": {
+      "camel": "testF",
+      "pascal": "TestF",
+      "snake": "test_f"
+    },
+    "TestFoobar": {
+      "camel": "testFoobar",
+      "pascal": "TestFoobar",
+      "snake": "test_foobar"
+    },
+    "UserId": {
+      "camel": "userId",
+      "pascal": "UserId",
+      "snake": "user_id"
+    },
+    "V2": {
+      "camel": "v2",
+      "pascal": "V2",
+      "snake": "v_2"
+    },
+    "Vec3": {
+      "camel": "vec3",
+      "pascal": "Vec3",
+      "snake": "vec_3"
+    },
+    "X": {
+      "camel": "x",
+      "pascal": "X",
+      "snake": "x"
+    },
+    "__identity__": {
+      "camel": "identity",
+      "pascal": "Identity",
+      "snake": "identity"
+    },
+    "_leading": {
+      "camel": "leading",
+      "pascal": "Leading",
+      "snake": "leading"
+    },
+    "aB": {
+      "camel": "aB",
+      "pascal": "AB",
+      "snake": "a_b"
+    },
+    "aBC": {
+      "camel": "aBc",
+      "pascal": "ABc",
+      "snake": "a_bc"
+    },
+    "a_b-c": {
+      "camel": "aBC",
+      "pascal": "ABC",
+      "snake": "a_b_c"
+    },
+    "add": {
+      "camel": "add",
+      "pascal": "Add",
+      "snake": "add"
+    },
+    "add_player": {
+      "camel": "addPlayer",
+      "pascal": "AddPlayer",
+      "snake": "add_player"
+    },
+    "add_private": {
+      "camel": "addPrivate",
+      "pascal": "AddPrivate",
+      "snake": "add_private"
+    },
+    "age": {
+      "camel": "age",
+      "pascal": "Age",
+      "snake": "age"
+    },
+    "already_snake_2": {
+      "camel": "alreadySnake2",
+      "pascal": "AlreadySnake2",
+      "snake": "already_snake_2"
+    },
+    "arg": {
+      "camel": "arg",
+      "pascal": "Arg",
+      "snake": "arg"
+    },
+    "arg_2": {
+      "camel": "arg2",
+      "pascal": "Arg2",
+      "snake": "arg_2"
+    },
+    "arg_3": {
+      "camel": "arg3",
+      "pascal": "Arg3",
+      "snake": "arg_3"
+    },
+    "arg_4": {
+      "camel": "arg4",
+      "pascal": "Arg4",
+      "snake": "arg_4"
+    },
+    "assert_caller_identity_is_module_identity": {
+      "camel": "assertCallerIdentityIsModuleIdentity",
+      "pascal": "AssertCallerIdentityIsModuleIdentity",
+      "snake": "assert_caller_identity_is_module_identity"
+    },
+    "bar": {
+      "camel": "bar",
+      "pascal": "Bar",
+      "snake": "bar"
+    },
+    "baz": {
+      "camel": "baz",
+      "pascal": "Baz",
+      "snake": "baz"
+    },
+    "by_tag": {
+      "camel": "byTag",
+      "pascal": "ByTag",
+      "snake": "by_tag"
+    },
+    "camelCaseName": {
+      "camel": "camelCaseName",
+      "pascal": "CamelCaseName",
+      "snake": "camel_case_name"
+    },
+    "client_connected": {
+      "camel": "clientConnected",
+      "pascal": "ClientConnected",
+      "snake": "client_connected"
+    },
+    "connection_id": {
+      "camel": "connectionId",
+      "pascal": "ConnectionId",
+      "snake": "connection_id"
+    },
+    "delete_player": {
+      "camel": "deletePlayer",
+      "pascal": "DeletePlayer",
+      "snake": "delete_player"
+    },
+    "delete_players_by_name": {
+      "camel": "deletePlayersByName",
+      "pascal": "DeletePlayersByName",
+      "snake": "delete_players_by_name"
+    },
+    "double__underscore": {
+      "camel": "doubleUnderscore",
+      "pascal": "DoubleUnderscore",
+      "snake": "double_underscore"
+    },
+    "enqueue_idc": {
+      "camel": "enqueueIdc",
+      "pascal": "EnqueueIdc",
+      "snake": "enqueue_idc"
+    },
+    "expect_environment": {
+      "camel": "expectEnvironment",
+      "pascal": "ExpectEnvironment",
+      "snake": "expect_environment"
+    },
+    "expected": {
+      "camel": "expected",
+      "pascal": "Expected",
+      "snake": "expected"
+    },
+    "field": {
+      "camel": "field",
+      "pascal": "Field",
+      "snake": "field"
+    },
+    "foo": {
+      "camel": "foo",
+      "pascal": "Foo",
+      "snake": "foo"
+    },
+    "get_my_schema_via_http": {
+      "camel": "getMySchemaViaHttp",
+      "pascal": "GetMySchemaViaHttp",
+      "snake": "get_my_schema_via_http"
+    },
+    "har": {
+      "camel": "har",
+      "pascal": "Har",
+      "snake": "har"
+    },
+    "has_special_stuff": {
+      "camel": "hasSpecialStuff",
+      "pascal": "HasSpecialStuff",
+      "snake": "has_special_stuff"
+    },
+    "httpServer": {
+      "camel": "httpServer",
+      "pascal": "HttpServer",
+      "snake": "http_server"
+    },
+    "id": {
+      "camel": "id",
+      "pascal": "Id",
+      "snake": "id"
+    },
+    "idc_noop_outbox": {
+      "camel": "idcNoopOutbox",
+      "pascal": "IdcNoopOutbox",
+      "snake": "idc_noop_outbox"
+    },
+    "idc_outbox": {
+      "camel": "idcOutbox",
+      "pascal": "IdcOutbox",
+      "snake": "idc_outbox"
+    },
+    "identity": {
+      "camel": "identity",
+      "pascal": "Identity",
+      "snake": "identity"
+    },
+    "init": {
+      "camel": "init",
+      "pascal": "Init",
+      "snake": "init"
+    },
+    "kebab-case-name": {
+      "camel": "kebabCaseName",
+      "pascal": "KebabCaseName",
+      "snake": "kebab_case_name"
+    },
+    "key": {
+      "camel": "key",
+      "pascal": "Key",
+      "snake": "key"
+    },
+    "list_over_age": {
+      "camel": "listOverAge",
+      "pascal": "ListOverAge",
+      "snake": "list_over_age"
+    },
+    "log_module_identity": {
+      "camel": "logModuleIdentity",
+      "pascal": "LogModuleIdentity",
+      "snake": "log_module_identity"
+    },
+    "logged_out_player": {
+      "camel": "loggedOutPlayer",
+      "pascal": "LoggedOutPlayer",
+      "snake": "logged_out_player"
+    },
+    "message": {
+      "camel": "message",
+      "pascal": "Message",
+      "snake": "message"
+    },
+    "mixed_UPPER_lower": {
+      "camel": "mixedUpperLower",
+      "pascal": "MixedUpperLower",
+      "snake": "mixed_upper_lower"
+    },
+    "msgId": {
+      "camel": "msgId",
+      "pascal": "MsgId",
+      "snake": "msg_id"
+    },
+    "msg_id": {
+      "camel": "msgId",
+      "pascal": "MsgId",
+      "snake": "msg_id"
+    },
+    "multi_column_index": {
+      "camel": "multiColumnIndex",
+      "pascal": "MultiColumnIndex",
+      "snake": "multi_column_index"
+    },
+    "myLib": {
+      "camel": "myLib",
+      "pascal": "MyLib",
+      "snake": "my_lib"
+    },
+    "my_lib": {
+      "camel": "myLib",
+      "pascal": "MyLib",
+      "snake": "my_lib"
+    },
+    "my_player": {
+      "camel": "myPlayer",
+      "pascal": "MyPlayer",
+      "snake": "my_player"
+    },
+    "name": {
+      "camel": "name",
+      "pascal": "Name",
+      "snake": "name"
+    },
+    "nonrepeating_test": {
+      "camel": "nonrepeatingTest",
+      "pascal": "NonrepeatingTest",
+      "snake": "nonrepeating_test"
+    },
+    "nonrepeating_test_arg": {
+      "camel": "nonrepeatingTestArg",
+      "pascal": "NonrepeatingTestArg",
+      "snake": "nonrepeating_test_arg"
+    },
+    "number1st": {
+      "camel": "number1St",
+      "pascal": "Number1St",
+      "snake": "number_1_st"
+    },
+    "on_idc_result": {
+      "camel": "onIdcResult",
+      "pascal": "OnIdcResult",
+      "snake": "on_idc_result"
+    },
+    "other": {
+      "camel": "other",
+      "pascal": "Other",
+      "snake": "other"
+    },
+    "person": {
+      "camel": "person",
+      "pascal": "Person",
+      "snake": "person"
+    },
+    "pk_multi_identity": {
+      "camel": "pkMultiIdentity",
+      "pascal": "PkMultiIdentity",
+      "snake": "pk_multi_identity"
+    },
+    "player": {
+      "camel": "player",
+      "pascal": "Player",
+      "snake": "player"
+    },
+    "player_id": {
+      "camel": "playerId",
+      "pascal": "PlayerId",
+      "snake": "player_id"
+    },
+    "points": {
+      "camel": "points",
+      "pascal": "Points",
+      "snake": "points"
+    },
+    "prev_time": {
+      "camel": "prevTime",
+      "pascal": "PrevTime",
+      "snake": "prev_time"
+    },
+    "private_table": {
+      "camel": "privateTable",
+      "pascal": "PrivateTable",
+      "snake": "private_table"
+    },
+    "query_private": {
+      "camel": "queryPrivate",
+      "pascal": "QueryPrivate",
+      "snake": "query_private"
+    },
+    "read_environment": {
+      "camel": "readEnvironment",
+      "pascal": "ReadEnvironment",
+      "snake": "read_environment"
+    },
+    "repeating_test": {
+      "camel": "repeatingTest",
+      "pascal": "RepeatingTest",
+      "snake": "repeating_test"
+    },
+    "repeating_test_arg": {
+      "camel": "repeatingTestArg",
+      "pascal": "RepeatingTestArg",
+      "snake": "repeating_test_arg"
+    },
+    "result": {
+      "camel": "result",
+      "pascal": "Result",
+      "snake": "result"
+    },
+    "return_value": {
+      "camel": "returnValue",
+      "pascal": "ReturnValue",
+      "snake": "return_value"
+    },
+    "row": {
+      "camel": "row",
+      "pascal": "Row",
+      "snake": "row"
+    },
+    "say_hello": {
+      "camel": "sayHello",
+      "pascal": "SayHello",
+      "snake": "say_hello"
+    },
+    "scheduled_at": {
+      "camel": "scheduledAt",
+      "pascal": "ScheduledAt",
+      "snake": "scheduled_at"
+    },
+    "scheduled_id": {
+      "camel": "scheduledId",
+      "pascal": "ScheduledId",
+      "snake": "scheduled_id"
+    },
+    "sleep_one_second": {
+      "camel": "sleepOneSecond",
+      "pascal": "SleepOneSecond",
+      "snake": "sleep_one_second"
+    },
+    "snake_case_name": {
+      "camel": "snakeCaseName",
+      "pascal": "SnakeCaseName",
+      "snake": "snake_case_name"
+    },
+    "table_to_remove": {
+      "camel": "tableToRemove",
+      "pascal": "TableToRemove",
+      "snake": "table_to_remove"
+    },
+    "table_v2": {
+      "camel": "tableV2",
+      "pascal": "TableV2",
+      "snake": "table_v_2"
+    },
+    "tag": {
+      "camel": "tag",
+      "pascal": "Tag",
+      "snake": "tag"
+    },
+    "target": {
+      "camel": "target",
+      "pascal": "Target",
+      "snake": "target"
+    },
+    "test": {
+      "camel": "test",
+      "pascal": "Test",
+      "snake": "test"
+    },
+    "test_a": {
+      "camel": "testA",
+      "pascal": "TestA",
+      "snake": "test_a"
+    },
+    "test_btree_index_args": {
+      "camel": "testBtreeIndexArgs",
+      "pascal": "TestBtreeIndexArgs",
+      "snake": "test_btree_index_args"
+    },
+    "test_c": {
+      "camel": "testC",
+      "pascal": "TestC",
+      "snake": "test_c"
+    },
+    "test_c_nested": {
+      "camel": "testCNested",
+      "pascal": "TestCNested",
+      "snake": "test_c_nested"
+    },
+    "test_d": {
+      "camel": "testD",
+      "pascal": "TestD",
+      "snake": "test_d"
+    },
+    "test_e": {
+      "camel": "testE",
+      "pascal": "TestE",
+      "snake": "test_e"
+    },
+    "test_f": {
+      "camel": "testF",
+      "pascal": "TestF",
+      "snake": "test_f"
+    },
+    "trailing_": {
+      "camel": "trailing",
+      "pascal": "Trailing",
+      "snake": "trailing"
+    },
+    "u8_array": {
+      "camel": "u8Array",
+      "pascal": "U8Array",
+      "snake": "u_8_array"
+    },
+    "user2Name": {
+      "camel": "user2Name",
+      "pascal": "User2Name",
+      "snake": "user_2_name"
+    },
+    "userID": {
+      "camel": "userId",
+      "pascal": "UserId",
+      "snake": "user_id"
+    },
+    "user_2_name": {
+      "camel": "user2Name",
+      "pascal": "User2Name",
+      "snake": "user_2_name"
+    },
+    "v2": {
+      "camel": "v2",
+      "pascal": "V2",
+      "snake": "v_2"
+    },
+    "v2_table": {
+      "camel": "v2Table",
+      "pascal": "V2Table",
+      "snake": "v_2_table"
+    },
+    "vec3d": {
+      "camel": "vec3D",
+      "pascal": "Vec3D",
+      "snake": "vec_3_d"
+    },
+    "with space": {
+      "camel": "withSpace",
+      "pascal": "WithSpace",
+      "snake": "with_space"
+    },
+    "with_tx": {
+      "camel": "withTx",
+      "pascal": "WithTx",
+      "snake": "with_tx"
+    },
+    "x": {
+      "camel": "x",
+      "pascal": "X",
+      "snake": "x"
+    },
+    "y": {
+      "camel": "y",
+      "pascal": "Y",
+      "snake": "y"
+    },
+    "z": {
+      "camel": "z",
+      "pascal": "Z",
+      "snake": "z"
+    }
+  },
+  "model": {
+    "accessor_path_segments": [],
+    "path": "",
+    "path_segments": [],
+    "procedures": [
+      {
+        "accessor_name": "get_my_schema_via_http",
+        "name": "get_my_schema_via_http",
+        "params_for_generate": [],
+        "private": false,
+        "return_type_for_generate": "String"
+      },
+      {
+        "accessor_name": "read_environment",
+        "name": "read_environment",
+        "params_for_generate": [
+          {
+            "name": "key",
+            "type": "String"
+          }
+        ],
+        "private": false,
+        "return_type_for_generate": {
+          "Option": "String"
+        }
+      },
+      {
+        "accessor_name": "return_value",
+        "name": "return_value",
+        "params_for_generate": [
+          {
+            "name": "foo",
+            "type": {
+              "Primitive": "U64"
+            }
+          }
+        ],
+        "private": false,
+        "return_type_for_generate": {
+          "Ref": 10
+        }
+      },
+      {
+        "accessor_name": "sleep_one_second",
+        "name": "sleep_one_second",
+        "params_for_generate": [],
+        "private": false,
+        "return_type_for_generate": "Unit"
+      },
+      {
+        "accessor_name": "with_tx",
+        "name": "with_tx",
+        "params_for_generate": [],
+        "private": false,
+        "return_type_for_generate": "Unit"
+      }
+    ],
+    "reducers": [
+      {
+        "accessor_name": "add",
+        "lifecycle": null,
+        "name": "add",
+        "params_for_generate": [
+          {
+            "name": "name",
+            "type": "String"
+          },
+          {
+            "name": "age",
+            "type": {
+              "Primitive": "U8"
+            }
+          }
+        ],
+        "private": false
+      },
+      {
+        "accessor_name": "add_player",
+        "lifecycle": null,
+        "name": "add_player",
+        "params_for_generate": [
+          {
+            "name": "name",
+            "type": "String"
+          }
+        ],
+        "private": false
+      },
+      {
+        "accessor_name": "add_private",
+        "lifecycle": null,
+        "name": "add_private",
+        "params_for_generate": [
+          {
+            "name": "name",
+            "type": "String"
+          }
+        ],
+        "private": false
+      },
+      {
+        "accessor_name": "assert_caller_identity_is_module_identity",
+        "lifecycle": null,
+        "name": "assert_caller_identity_is_module_identity",
+        "params_for_generate": [],
+        "private": false
+      },
+      {
+        "accessor_name": "client_connected",
+        "lifecycle": "OnConnect",
+        "name": "client_connected",
+        "params_for_generate": [],
+        "private": true
+      },
+      {
+        "accessor_name": "delete_player",
+        "lifecycle": null,
+        "name": "delete_player",
+        "params_for_generate": [
+          {
+            "name": "id",
+            "type": {
+              "Primitive": "U64"
+            }
+          }
+        ],
+        "private": false
+      },
+      {
+        "accessor_name": "delete_players_by_name",
+        "lifecycle": null,
+        "name": "delete_players_by_name",
+        "params_for_generate": [
+          {
+            "name": "name",
+            "type": "String"
+          }
+        ],
+        "private": false
+      },
+      {
+        "accessor_name": "enqueue_idc",
+        "lifecycle": null,
+        "name": "enqueue_idc",
+        "params_for_generate": [
+          {
+            "name": "target",
+            "type": "Identity"
+          },
+          {
+            "name": "message",
+            "type": "String"
+          }
+        ],
+        "private": false
+      },
+      {
+        "accessor_name": "expect_environment",
+        "lifecycle": null,
+        "name": "expect_environment",
+        "params_for_generate": [
+          {
+            "name": "key",
+            "type": "String"
+          },
+          {
+            "name": "expected",
+            "type": {
+              "Option": "String"
+            }
+          }
+        ],
+        "private": false
+      },
+      {
+        "accessor_name": "init",
+        "lifecycle": "Init",
+        "name": "init",
+        "params_for_generate": [],
+        "private": true
+      },
+      {
+        "accessor_name": "list_over_age",
+        "lifecycle": null,
+        "name": "list_over_age",
+        "params_for_generate": [
+          {
+            "name": "age",
+            "type": {
+              "Primitive": "U8"
+            }
+          }
+        ],
+        "private": false
+      },
+      {
+        "accessor_name": "log_module_identity",
+        "lifecycle": null,
+        "name": "log_module_identity",
+        "params_for_generate": [],
+        "private": false
+      },
+      {
+        "accessor_name": "nonrepeating_test",
+        "lifecycle": null,
+        "name": "nonrepeating_test",
+        "params_for_generate": [
+          {
+            "name": "arg",
+            "type": {
+              "Ref": 4
+            }
+          }
+        ],
+        "private": true
+      },
+      {
+        "accessor_name": "on_idc_result",
+        "lifecycle": null,
+        "name": "on_idc_result",
+        "params_for_generate": [
+          {
+            "name": "row",
+            "type": {
+              "Ref": 2
+            }
+          },
+          {
+            "name": "result",
+            "type": {
+              "Result": {
+                "err": "String",
+                "ok": "Unit"
+              }
+            }
+          }
+        ],
+        "private": true
+      },
+      {
+        "accessor_name": "query_private",
+        "lifecycle": null,
+        "name": "query_private",
+        "params_for_generate": [],
+        "private": false
+      },
+      {
+        "accessor_name": "repeating_test",
+        "lifecycle": null,
+        "name": "repeating_test",
+        "params_for_generate": [
+          {
+            "name": "arg",
+            "type": {
+              "Ref": 9
+            }
+          }
+        ],
+        "private": true
+      },
+      {
+        "accessor_name": "say_hello",
+        "lifecycle": null,
+        "name": "say_hello",
+        "params_for_generate": [],
+        "private": false
+      },
+      {
+        "accessor_name": "test",
+        "lifecycle": null,
+        "name": "test",
+        "params_for_generate": [
+          {
+            "name": "arg",
+            "type": {
+              "Ref": 12
+            }
+          },
+          {
+            "name": "arg_2",
+            "type": {
+              "Ref": 13
+            }
+          },
+          {
+            "name": "arg_3",
+            "type": {
+              "Ref": 14
+            }
+          },
+          {
+            "name": "arg_4",
+            "type": {
+              "Ref": 15
+            }
+          }
+        ],
+        "private": false
+      },
+      {
+        "accessor_name": "test_btree_index_args",
+        "lifecycle": null,
+        "name": "test_btree_index_args",
+        "params_for_generate": [],
+        "private": false
+      }
+    ],
+    "submodules": [],
+    "tables": [
+      {
+        "accessor_name": "test_d",
+        "columns": [
+          {
+            "accessor_name": "test_c",
+            "name": "test_c"
+          },
+          {
+            "accessor_name": "test_c_nested",
+            "name": "test_c_nested"
+          }
+        ],
+        "indexes": [],
+        "is_event": false,
+        "name": "test_d",
+        "primary_key": null,
+        "product_type_ref": 16,
+        "public": true
+      },
+      {
+        "accessor_name": "nonrepeating_test_arg",
+        "columns": [
+          {
+            "accessor_name": "scheduled_id",
+            "name": "scheduled_id"
+          },
+          {
+            "accessor_name": "scheduled_at",
+            "name": "scheduled_at"
+          },
+          {
+            "accessor_name": "prev_time",
+            "name": "prev_time"
+          }
+        ],
+        "indexes": [
+          {
+            "accessor_name": "scheduled_id",
+            "algorithm": "BTree",
+            "columns": [
+              0
+            ],
+            "is_unique": true,
+            "name": "nonrepeating_test_arg_scheduled_id_idx_btree"
+          }
+        ],
+        "is_event": false,
+        "name": "nonrepeating_test_arg",
+        "primary_key": 0,
+        "product_type_ref": 4,
+        "public": false
+      },
+      {
+        "accessor_name": "idc_outbox",
+        "columns": [
+          {
+            "accessor_name": "id",
+            "name": "id"
+          },
+          {
+            "accessor_name": "tag",
+            "name": "tag"
+          },
+          {
+            "accessor_name": "target",
+            "name": "target"
+          },
+          {
+            "accessor_name": "message",
+            "name": "message"
+          }
+        ],
+        "indexes": [
+          {
+            "accessor_name": "id",
+            "algorithm": "BTree",
+            "columns": [
+              0
+            ],
+            "is_unique": true,
+            "name": "idc_outbox_id_idx_btree"
+          },
+          {
+            "accessor_name": "by_tag",
+            "algorithm": "BTree",
+            "columns": [
+              1
+            ],
+            "is_unique": false,
+            "name": "idc_outbox_tag_idx_btree"
+          }
+        ],
+        "is_event": false,
+        "name": "idc_outbox",
+        "primary_key": 0,
+        "product_type_ref": 2,
+        "public": true
+      },
+      {
+        "accessor_name": "points",
+        "columns": [
+          {
+            "accessor_name": "x",
+            "name": "x"
+          },
+          {
+            "accessor_name": "y",
+            "name": "y"
+          }
+        ],
+        "indexes": [
+          {
+            "accessor_name": "multi_column_index",
+            "algorithm": "BTree",
+            "columns": [
+              0,
+              1
+            ],
+            "is_unique": false,
+            "name": "points_x_y_idx_btree"
+          }
+        ],
+        "is_event": false,
+        "name": "points",
+        "primary_key": null,
+        "product_type_ref": 7,
+        "public": false
+      },
+      {
+        "accessor_name": "test_f",
+        "columns": [
+          {
+            "accessor_name": "field",
+            "name": "field"
+          }
+        ],
+        "indexes": [],
+        "is_event": false,
+        "name": "test_f",
+        "primary_key": null,
+        "product_type_ref": 18,
+        "public": true
+      },
+      {
+        "accessor_name": "test_e",
+        "columns": [
+          {
+            "accessor_name": "id",
+            "name": "id"
+          },
+          {
+            "accessor_name": "name",
+            "name": "name"
+          }
+        ],
+        "indexes": [
+          {
+            "accessor_name": "id",
+            "algorithm": "BTree",
+            "columns": [
+              0
+            ],
+            "is_unique": true,
+            "name": "test_e_id_idx_btree"
+          },
+          {
+            "accessor_name": "name",
+            "algorithm": "BTree",
+            "columns": [
+              1
+            ],
+            "is_unique": false,
+            "name": "test_e_name_idx_btree"
+          }
+        ],
+        "is_event": false,
+        "name": "test_e",
+        "primary_key": 0,
+        "product_type_ref": 17,
+        "public": false
+      },
+      {
+        "accessor_name": "person",
+        "columns": [
+          {
+            "accessor_name": "id",
+            "name": "id"
+          },
+          {
+            "accessor_name": "name",
+            "name": "name"
+          },
+          {
+            "accessor_name": "age",
+            "name": "age"
+          }
+        ],
+        "indexes": [
+          {
+            "accessor_name": "age",
+            "algorithm": "BTree",
+            "columns": [
+              2
+            ],
+            "is_unique": false,
+            "name": "person_age_idx_btree"
+          },
+          {
+            "accessor_name": "id",
+            "algorithm": "BTree",
+            "columns": [
+              0
+            ],
+            "is_unique": true,
+            "name": "person_id_idx_btree"
+          }
+        ],
+        "is_event": false,
+        "name": "person",
+        "primary_key": 0,
+        "product_type_ref": 5,
+        "public": true
+      },
+      {
+        "accessor_name": "logged_out_player",
+        "columns": [
+          {
+            "accessor_name": "identity",
+            "name": "identity"
+          },
+          {
+            "accessor_name": "player_id",
+            "name": "player_id"
+          },
+          {
+            "accessor_name": "name",
+            "name": "name"
+          }
+        ],
+        "indexes": [
+          {
+            "accessor_name": "identity",
+            "algorithm": "BTree",
+            "columns": [
+              0
+            ],
+            "is_unique": true,
+            "name": "logged_out_player_identity_idx_btree"
+          },
+          {
+            "accessor_name": "name",
+            "algorithm": "BTree",
+            "columns": [
+              2
+            ],
+            "is_unique": true,
+            "name": "logged_out_player_name_idx_btree"
+          },
+          {
+            "accessor_name": "player_id",
+            "algorithm": "BTree",
+            "columns": [
+              1
+            ],
+            "is_unique": true,
+            "name": "logged_out_player_player_id_idx_btree"
+          }
+        ],
+        "is_event": false,
+        "name": "logged_out_player",
+        "primary_key": 0,
+        "product_type_ref": 3,
+        "public": true
+      },
+      {
+        "accessor_name": "player",
+        "columns": [
+          {
+            "accessor_name": "identity",
+            "name": "identity"
+          },
+          {
+            "accessor_name": "player_id",
+            "name": "player_id"
+          },
+          {
+            "accessor_name": "name",
+            "name": "name"
+          }
+        ],
+        "indexes": [
+          {
+            "accessor_name": "identity",
+            "algorithm": "BTree",
+            "columns": [
+              0
+            ],
+            "is_unique": true,
+            "name": "player_identity_idx_btree"
+          },
+          {
+            "accessor_name": "name",
+            "algorithm": "BTree",
+            "columns": [
+              2
+            ],
+            "is_unique": true,
+            "name": "player_name_idx_btree"
+          },
+          {
+            "accessor_name": "player_id",
+            "algorithm": "BTree",
+            "columns": [
+              1
+            ],
+            "is_unique": true,
+            "name": "player_player_id_idx_btree"
+          }
+        ],
+        "is_event": false,
+        "name": "player",
+        "primary_key": 0,
+        "product_type_ref": 3,
+        "public": true
+      },
+      {
+        "accessor_name": "table_to_remove",
+        "columns": [
+          {
+            "accessor_name": "id",
+            "name": "id"
+          }
+        ],
+        "indexes": [],
+        "is_event": false,
+        "name": "table_to_remove",
+        "primary_key": null,
+        "product_type_ref": 11,
+        "public": false
+      },
+      {
+        "accessor_name": "private_table",
+        "columns": [
+          {
+            "accessor_name": "name",
+            "name": "name"
+          }
+        ],
+        "indexes": [],
+        "is_event": false,
+        "name": "private_table",
+        "primary_key": null,
+        "product_type_ref": 8,
+        "public": false
+      },
+      {
+        "accessor_name": "pk_multi_identity",
+        "columns": [
+          {
+            "accessor_name": "id",
+            "name": "id"
+          },
+          {
+            "accessor_name": "other",
+            "name": "other"
+          }
+        ],
+        "indexes": [
+          {
+            "accessor_name": "id",
+            "algorithm": "BTree",
+            "columns": [
+              0
+            ],
+            "is_unique": true,
+            "name": "pk_multi_identity_id_idx_btree"
+          },
+          {
+            "accessor_name": "other",
+            "algorithm": "BTree",
+            "columns": [
+              1
+            ],
+            "is_unique": true,
+            "name": "pk_multi_identity_other_idx_btree"
+          }
+        ],
+        "is_event": false,
+        "name": "pk_multi_identity",
+        "primary_key": 0,
+        "product_type_ref": 6,
+        "public": false
+      },
+      {
+        "accessor_name": "test_a",
+        "columns": [
+          {
+            "accessor_name": "x",
+            "name": "x"
+          },
+          {
+            "accessor_name": "y",
+            "name": "y"
+          },
+          {
+            "accessor_name": "z",
+            "name": "z"
+          }
+        ],
+        "indexes": [
+          {
+            "accessor_name": "foo",
+            "algorithm": "BTree",
+            "columns": [
+              0
+            ],
+            "is_unique": false,
+            "name": "test_a_x_idx_btree"
+          }
+        ],
+        "is_event": false,
+        "name": "test_a",
+        "primary_key": null,
+        "product_type_ref": 12,
+        "public": false
+      },
+      {
+        "accessor_name": "has_special_stuff",
+        "columns": [
+          {
+            "accessor_name": "identity",
+            "name": "identity"
+          },
+          {
+            "accessor_name": "connection_id",
+            "name": "connection_id"
+          }
+        ],
+        "indexes": [],
+        "is_event": false,
+        "name": "has_special_stuff",
+        "primary_key": null,
+        "product_type_ref": 0,
+        "public": false
+      },
+      {
+        "accessor_name": "repeating_test_arg",
+        "columns": [
+          {
+            "accessor_name": "scheduled_id",
+            "name": "scheduled_id"
+          },
+          {
+            "accessor_name": "scheduled_at",
+            "name": "scheduled_at"
+          },
+          {
+            "accessor_name": "prev_time",
+            "name": "prev_time"
+          }
+        ],
+        "indexes": [
+          {
+            "accessor_name": "scheduled_id",
+            "algorithm": "BTree",
+            "columns": [
+              0
+            ],
+            "is_unique": true,
+            "name": "repeating_test_arg_scheduled_id_idx_btree"
+          }
+        ],
+        "is_event": false,
+        "name": "repeating_test_arg",
+        "primary_key": 0,
+        "product_type_ref": 9,
+        "public": false
+      },
+      {
+        "accessor_name": "idc_noop_outbox",
+        "columns": [
+          {
+            "accessor_name": "msg_id",
+            "name": "msg_id"
+          },
+          {
+            "accessor_name": "target",
+            "name": "target"
+          }
+        ],
+        "indexes": [
+          {
+            "accessor_name": "msgId",
+            "algorithm": "BTree",
+            "columns": [
+              0
+            ],
+            "is_unique": true,
+            "name": "idc_noop_outbox_msg_id_idx_btree"
+          }
+        ],
+        "is_event": false,
+        "name": "idc_noop_outbox",
+        "primary_key": 0,
+        "product_type_ref": 1,
+        "public": false
+      }
+    ],
+    "types": [
+      {
+        "name_segments": [
+          "TestB"
+        ],
+        "ref": 13
+      },
+      {
+        "name_segments": [
+          "IdcOutbox"
+        ],
+        "ref": 2
+      },
+      {
+        "name_segments": [
+          "Person"
+        ],
+        "ref": 5
+      },
+      {
+        "name_segments": [
+          "TestD"
+        ],
+        "ref": 16
+      },
+      {
+        "name_segments": [
+          "Foobar"
+        ],
+        "ref": 19
+      },
+      {
+        "name_segments": [
+          "HasSpecialStuff"
+        ],
+        "ref": 0
+      },
+      {
+        "name_segments": [
+          "Namespace",
+          "TestF"
+        ],
+        "ref": 15
+      },
+      {
+        "name_segments": [
+          "TestFoobar"
+        ],
+        "ref": 18
+      },
+      {
+        "name_segments": [
+          "Player"
+        ],
+        "ref": 3
+      },
+      {
+        "name_segments": [
+          "RepeatingTestArg"
+        ],
+        "ref": 9
+      },
+      {
+        "name_segments": [
+          "Point"
+        ],
+        "ref": 7
+      },
+      {
+        "name_segments": [
+          "Baz"
+        ],
+        "ref": 10
+      },
+      {
+        "name_segments": [
+          "TestA"
+        ],
+        "ref": 12
+      },
+      {
+        "name_segments": [
+          "PkMultiIdentity"
+        ],
+        "ref": 6
+      },
+      {
+        "name_segments": [
+          "RemoveTable"
+        ],
+        "ref": 11
+      },
+      {
+        "name_segments": [
+          "IdcNoopOutbox"
+        ],
+        "ref": 1
+      },
+      {
+        "name_segments": [
+          "PrivateTable"
+        ],
+        "ref": 8
+      },
+      {
+        "name_segments": [
+          "NonrepeatingTestArg"
+        ],
+        "ref": 4
+      },
+      {
+        "name_segments": [
+          "TestE"
+        ],
+        "ref": 17
+      },
+      {
+        "name_segments": [
+          "Namespace",
+          "TestC"
+        ],
+        "ref": 14
+      }
+    ],
+    "typespace_for_generate": {
+      "0": {
+        "Product": {
+          "elements": [
+            {
+              "name": "identity",
+              "type": "Identity"
+            },
+            {
+              "name": "connection_id",
+              "type": "ConnectionId"
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "1": {
+        "Product": {
+          "elements": [
+            {
+              "name": "msg_id",
+              "type": {
+                "Primitive": "U64"
+              }
+            },
+            {
+              "name": "target",
+              "type": "Identity"
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "10": {
+        "Product": {
+          "elements": [
+            {
+              "name": "field",
+              "type": "String"
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "11": {
+        "Product": {
+          "elements": [
+            {
+              "name": "id",
+              "type": {
+                "Primitive": "U32"
+              }
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "12": {
+        "Product": {
+          "elements": [
+            {
+              "name": "x",
+              "type": {
+                "Primitive": "U32"
+              }
+            },
+            {
+              "name": "y",
+              "type": {
+                "Primitive": "U32"
+              }
+            },
+            {
+              "name": "z",
+              "type": "String"
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "13": {
+        "Product": {
+          "elements": [
+            {
+              "name": "foo",
+              "type": "String"
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "14": {
+        "PlainEnum": {
+          "variants": [
+            "foo",
+            "bar"
+          ]
+        }
+      },
+      "15": {
+        "Sum": {
+          "recursive": false,
+          "variants": [
+            {
+              "name": "foo",
+              "type": "Unit"
+            },
+            {
+              "name": "bar",
+              "type": "Unit"
+            },
+            {
+              "name": "baz",
+              "type": "String"
+            }
+          ]
+        }
+      },
+      "16": {
+        "Product": {
+          "elements": [
+            {
+              "name": "test_c",
+              "type": {
+                "Option": {
+                  "Ref": 14
+                }
+              }
+            },
+            {
+              "name": "test_c_nested",
+              "type": {
+                "Option": {
+                  "Array": {
+                    "Ref": 14
+                  }
+                }
+              }
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "17": {
+        "Product": {
+          "elements": [
+            {
+              "name": "id",
+              "type": {
+                "Primitive": "U64"
+              }
+            },
+            {
+              "name": "name",
+              "type": "String"
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "18": {
+        "Product": {
+          "elements": [
+            {
+              "name": "field",
+              "type": {
+                "Ref": 19
+              }
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "19": {
+        "Sum": {
+          "recursive": false,
+          "variants": [
+            {
+              "name": "baz",
+              "type": {
+                "Ref": 10
+              }
+            },
+            {
+              "name": "bar",
+              "type": "Unit"
+            },
+            {
+              "name": "har",
+              "type": {
+                "Primitive": "U32"
+              }
+            }
+          ]
+        }
+      },
+      "2": {
+        "Product": {
+          "elements": [
+            {
+              "name": "id",
+              "type": {
+                "Primitive": "U64"
+              }
+            },
+            {
+              "name": "tag",
+              "type": "String"
+            },
+            {
+              "name": "target",
+              "type": "Identity"
+            },
+            {
+              "name": "message",
+              "type": "String"
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "3": {
+        "Product": {
+          "elements": [
+            {
+              "name": "identity",
+              "type": "Identity"
+            },
+            {
+              "name": "player_id",
+              "type": {
+                "Primitive": "U64"
+              }
+            },
+            {
+              "name": "name",
+              "type": "String"
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "4": {
+        "Product": {
+          "elements": [
+            {
+              "name": "scheduled_id",
+              "type": {
+                "Primitive": "U64"
+              }
+            },
+            {
+              "name": "scheduled_at",
+              "type": "ScheduleAt"
+            },
+            {
+              "name": "prev_time",
+              "type": "Timestamp"
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "5": {
+        "Product": {
+          "elements": [
+            {
+              "name": "id",
+              "type": {
+                "Primitive": "U32"
+              }
+            },
+            {
+              "name": "name",
+              "type": "String"
+            },
+            {
+              "name": "age",
+              "type": {
+                "Primitive": "U8"
+              }
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "6": {
+        "Product": {
+          "elements": [
+            {
+              "name": "id",
+              "type": {
+                "Primitive": "U32"
+              }
+            },
+            {
+              "name": "other",
+              "type": {
+                "Primitive": "U32"
+              }
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "7": {
+        "Product": {
+          "elements": [
+            {
+              "name": "x",
+              "type": {
+                "Primitive": "I64"
+              }
+            },
+            {
+              "name": "y",
+              "type": {
+                "Primitive": "I64"
+              }
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "8": {
+        "Product": {
+          "elements": [
+            {
+              "name": "name",
+              "type": "String"
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "9": {
+        "Product": {
+          "elements": [
+            {
+              "name": "scheduled_id",
+              "type": {
+                "Primitive": "U64"
+              }
+            },
+            {
+              "name": "scheduled_at",
+              "type": "ScheduleAt"
+            },
+            {
+              "name": "prev_time",
+              "type": "Timestamp"
+            }
+          ],
+          "recursive": false
+        }
+      }
+    },
+    "views": [
+      {
+        "accessor_name": "my_player",
+        "as_table": {
+          "accessor_name": "my_player",
+          "columns": [
+            {
+              "accessor_name": "identity",
+              "name": "identity"
+            },
+            {
+              "accessor_name": "player_id",
+              "name": "player_id"
+            },
+            {
+              "accessor_name": "name",
+              "name": "name"
+            }
+          ],
+          "indexes": [],
+          "is_event": false,
+          "name": "my_player",
+          "primary_key": null,
+          "product_type_ref": 3,
+          "public": true
+        },
+        "name": "my_player",
+        "params": [],
+        "params_for_generate": []
+      }
+    ]
+  }
+}

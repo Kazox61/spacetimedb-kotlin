@@ -1,0 +1,3415 @@
+{
+  "cases": {
+    "1st": {
+      "camel": "1St",
+      "pascal": "1St",
+      "snake": "1_st"
+    },
+    "ABC123def": {
+      "camel": "abc123Def",
+      "pascal": "Abc123Def",
+      "snake": "abc_123_def"
+    },
+    "ABc": {
+      "camel": "aBc",
+      "pascal": "ABc",
+      "snake": "a_bc"
+    },
+    "Ab": {
+      "camel": "ab",
+      "pascal": "Ab",
+      "snake": "ab"
+    },
+    "Assignment": {
+      "camel": "assignment",
+      "pascal": "Assignment",
+      "snake": "assignment"
+    },
+    "AssignmentLookup": {
+      "camel": "assignmentLookup",
+      "pascal": "AssignmentLookup",
+      "snake": "assignment_lookup"
+    },
+    "AssignmentSubmission": {
+      "camel": "assignmentSubmission",
+      "pascal": "AssignmentSubmission",
+      "snake": "assignment_submission"
+    },
+    "AssignmentSubmissions": {
+      "camel": "assignmentSubmissions",
+      "pascal": "AssignmentSubmissions",
+      "snake": "assignment_submissions"
+    },
+    "AssignmentTarget": {
+      "camel": "assignmentTarget",
+      "pascal": "AssignmentTarget",
+      "snake": "assignment_target"
+    },
+    "AssignmentTemplate": {
+      "camel": "assignmentTemplate",
+      "pascal": "AssignmentTemplate",
+      "snake": "assignment_template"
+    },
+    "Change": {
+      "camel": "change",
+      "pascal": "Change",
+      "snake": "change"
+    },
+    "ChangeUpload": {
+      "camel": "changeUpload",
+      "pascal": "ChangeUpload",
+      "snake": "change_upload"
+    },
+    "CreateAssignment": {
+      "camel": "createAssignment",
+      "pascal": "CreateAssignment",
+      "snake": "create_assignment"
+    },
+    "CreateInvite": {
+      "camel": "createInvite",
+      "pascal": "CreateInvite",
+      "snake": "create_invite"
+    },
+    "HTTPServer": {
+      "camel": "httpServer",
+      "pascal": "HttpServer",
+      "snake": "http_server"
+    },
+    "HandIn": {
+      "camel": "handIn",
+      "pascal": "HandIn",
+      "snake": "hand_in"
+    },
+    "ID": {
+      "camel": "id",
+      "pascal": "Id",
+      "snake": "id"
+    },
+    "IOError": {
+      "camel": "ioError",
+      "pascal": "IoError",
+      "snake": "io_error"
+    },
+    "Invite": {
+      "camel": "invite",
+      "pascal": "Invite",
+      "snake": "invite"
+    },
+    "InviteLookup": {
+      "camel": "inviteLookup",
+      "pascal": "InviteLookup",
+      "snake": "invite_lookup"
+    },
+    "InviteTarget": {
+      "camel": "inviteTarget",
+      "pascal": "InviteTarget",
+      "snake": "invite_target"
+    },
+    "JoinNotebook": {
+      "camel": "joinNotebook",
+      "pascal": "JoinNotebook",
+      "snake": "join_notebook"
+    },
+    "Member": {
+      "camel": "member",
+      "pascal": "Member",
+      "snake": "member"
+    },
+    "MyAssignment": {
+      "camel": "myAssignment",
+      "pascal": "MyAssignment",
+      "snake": "my_assignment"
+    },
+    "MyAssignments": {
+      "camel": "myAssignments",
+      "pascal": "MyAssignments",
+      "snake": "my_assignments"
+    },
+    "MyLib": {
+      "camel": "myLib",
+      "pascal": "MyLib",
+      "snake": "my_lib"
+    },
+    "MyNotebook": {
+      "camel": "myNotebook",
+      "pascal": "MyNotebook",
+      "snake": "my_notebook"
+    },
+    "MyNotebooks": {
+      "camel": "myNotebooks",
+      "pascal": "MyNotebooks",
+      "snake": "my_notebooks"
+    },
+    "MySubmission": {
+      "camel": "mySubmission",
+      "pascal": "MySubmission",
+      "snake": "my_submission"
+    },
+    "MySubmissions": {
+      "camel": "mySubmissions",
+      "pascal": "MySubmissions",
+      "snake": "my_submissions"
+    },
+    "Notebook": {
+      "camel": "notebook",
+      "pascal": "Notebook",
+      "snake": "notebook"
+    },
+    "NotebookChanges": {
+      "camel": "notebookChanges",
+      "pascal": "NotebookChanges",
+      "snake": "notebook_changes"
+    },
+    "NotebookInvites": {
+      "camel": "notebookInvites",
+      "pascal": "NotebookInvites",
+      "snake": "notebook_invites"
+    },
+    "NotebookMember": {
+      "camel": "notebookMember",
+      "pascal": "NotebookMember",
+      "snake": "notebook_member"
+    },
+    "NotebookMembers": {
+      "camel": "notebookMembers",
+      "pascal": "NotebookMembers",
+      "snake": "notebook_members"
+    },
+    "NotebookSnapshot": {
+      "camel": "notebookSnapshot",
+      "pascal": "NotebookSnapshot",
+      "snake": "notebook_snapshot"
+    },
+    "PascalCaseName": {
+      "camel": "pascalCaseName",
+      "pascal": "PascalCaseName",
+      "snake": "pascal_case_name"
+    },
+    "Profile": {
+      "camel": "profile",
+      "pascal": "Profile",
+      "snake": "profile"
+    },
+    "PushChanges": {
+      "camel": "pushChanges",
+      "pascal": "PushChanges",
+      "snake": "push_changes"
+    },
+    "PutAssignmentChunk": {
+      "camel": "putAssignmentChunk",
+      "pascal": "PutAssignmentChunk",
+      "snake": "put_assignment_chunk"
+    },
+    "PutResourceChunk": {
+      "camel": "putResourceChunk",
+      "pascal": "PutResourceChunk",
+      "snake": "put_resource_chunk"
+    },
+    "RemoveMember": {
+      "camel": "removeMember",
+      "pascal": "RemoveMember",
+      "snake": "remove_member"
+    },
+    "ResourceChunk": {
+      "camel": "resourceChunk",
+      "pascal": "ResourceChunk",
+      "snake": "resource_chunk"
+    },
+    "ResourceChunkAt": {
+      "camel": "resourceChunkAt",
+      "pascal": "ResourceChunkAt",
+      "snake": "resource_chunk_at"
+    },
+    "RevokeInvite": {
+      "camel": "revokeInvite",
+      "pascal": "RevokeInvite",
+      "snake": "revoke_invite"
+    },
+    "SCREAMING_CASE": {
+      "camel": "screamingCase",
+      "pascal": "ScreamingCase",
+      "snake": "screaming_case"
+    },
+    "SetAssignmentClosed": {
+      "camel": "setAssignmentClosed",
+      "pascal": "SetAssignmentClosed",
+      "snake": "set_assignment_closed"
+    },
+    "SetInviteTitle": {
+      "camel": "setInviteTitle",
+      "pascal": "SetInviteTitle",
+      "snake": "set_invite_title"
+    },
+    "SetMemberRole": {
+      "camel": "setMemberRole",
+      "pascal": "SetMemberRole",
+      "snake": "set_member_role"
+    },
+    "SetProfile": {
+      "camel": "setProfile",
+      "pascal": "SetProfile",
+      "snake": "set_profile"
+    },
+    "ShareNotebook": {
+      "camel": "shareNotebook",
+      "pascal": "ShareNotebook",
+      "snake": "share_notebook"
+    },
+    "StartAssignment": {
+      "camel": "startAssignment",
+      "pascal": "StartAssignment",
+      "snake": "start_assignment"
+    },
+    "Submission": {
+      "camel": "submission",
+      "pascal": "Submission",
+      "snake": "submission"
+    },
+    "TemplateSnapshot": {
+      "camel": "templateSnapshot",
+      "pascal": "TemplateSnapshot",
+      "snake": "template_snapshot"
+    },
+    "Unpublish": {
+      "camel": "unpublish",
+      "pascal": "Unpublish",
+      "snake": "unpublish"
+    },
+    "Unsubmit": {
+      "camel": "unsubmit",
+      "pascal": "Unsubmit",
+      "snake": "unsubmit"
+    },
+    "UserId": {
+      "camel": "userId",
+      "pascal": "UserId",
+      "snake": "user_id"
+    },
+    "V2": {
+      "camel": "v2",
+      "pascal": "V2",
+      "snake": "v_2"
+    },
+    "Vec3": {
+      "camel": "vec3",
+      "pascal": "Vec3",
+      "snake": "vec_3"
+    },
+    "X": {
+      "camel": "x",
+      "pascal": "X",
+      "snake": "x"
+    },
+    "__identity__": {
+      "camel": "identity",
+      "pascal": "Identity",
+      "snake": "identity"
+    },
+    "_leading": {
+      "camel": "leading",
+      "pascal": "Leading",
+      "snake": "leading"
+    },
+    "aB": {
+      "camel": "aB",
+      "pascal": "AB",
+      "snake": "a_b"
+    },
+    "aBC": {
+      "camel": "aBc",
+      "pascal": "ABc",
+      "snake": "a_bc"
+    },
+    "a_b-c": {
+      "camel": "aBC",
+      "pascal": "ABC",
+      "snake": "a_b_c"
+    },
+    "after": {
+      "camel": "after",
+      "pascal": "After",
+      "snake": "after"
+    },
+    "already_snake_2": {
+      "camel": "alreadySnake2",
+      "pascal": "AlreadySnake2",
+      "snake": "already_snake_2"
+    },
+    "assignment": {
+      "camel": "assignment",
+      "pascal": "Assignment",
+      "snake": "assignment"
+    },
+    "assignmentLookup": {
+      "camel": "assignmentLookup",
+      "pascal": "AssignmentLookup",
+      "snake": "assignment_lookup"
+    },
+    "assignmentSubmissions": {
+      "camel": "assignmentSubmissions",
+      "pascal": "AssignmentSubmissions",
+      "snake": "assignment_submissions"
+    },
+    "assignmentTemplate": {
+      "camel": "assignmentTemplate",
+      "pascal": "AssignmentTemplate",
+      "snake": "assignment_template"
+    },
+    "assignment_lookup": {
+      "camel": "assignmentLookup",
+      "pascal": "AssignmentLookup",
+      "snake": "assignment_lookup"
+    },
+    "assignment_submissions": {
+      "camel": "assignmentSubmissions",
+      "pascal": "AssignmentSubmissions",
+      "snake": "assignment_submissions"
+    },
+    "assignment_template": {
+      "camel": "assignmentTemplate",
+      "pascal": "AssignmentTemplate",
+      "snake": "assignment_template"
+    },
+    "camelCaseName": {
+      "camel": "camelCaseName",
+      "pascal": "CamelCaseName",
+      "snake": "camel_case_name"
+    },
+    "change": {
+      "camel": "change",
+      "pascal": "Change",
+      "snake": "change"
+    },
+    "changes": {
+      "camel": "changes",
+      "pascal": "Changes",
+      "snake": "changes"
+    },
+    "closed": {
+      "camel": "closed",
+      "pascal": "Closed",
+      "snake": "closed"
+    },
+    "createAssignment": {
+      "camel": "createAssignment",
+      "pascal": "CreateAssignment",
+      "snake": "create_assignment"
+    },
+    "createInvite": {
+      "camel": "createInvite",
+      "pascal": "CreateInvite",
+      "snake": "create_invite"
+    },
+    "create_assignment": {
+      "camel": "createAssignment",
+      "pascal": "CreateAssignment",
+      "snake": "create_assignment"
+    },
+    "create_invite": {
+      "camel": "createInvite",
+      "pascal": "CreateInvite",
+      "snake": "create_invite"
+    },
+    "created_at": {
+      "camel": "createdAt",
+      "pascal": "CreatedAt",
+      "snake": "created_at"
+    },
+    "data": {
+      "camel": "data",
+      "pascal": "Data",
+      "snake": "data"
+    },
+    "display_name": {
+      "camel": "displayName",
+      "pascal": "DisplayName",
+      "snake": "display_name"
+    },
+    "double__underscore": {
+      "camel": "doubleUnderscore",
+      "pascal": "DoubleUnderscore",
+      "snake": "double_underscore"
+    },
+    "due_at": {
+      "camel": "dueAt",
+      "pascal": "DueAt",
+      "snake": "due_at"
+    },
+    "expires_at": {
+      "camel": "expiresAt",
+      "pascal": "ExpiresAt",
+      "snake": "expires_at"
+    },
+    "handIn": {
+      "camel": "handIn",
+      "pascal": "HandIn",
+      "snake": "hand_in"
+    },
+    "hand_in": {
+      "camel": "handIn",
+      "pascal": "HandIn",
+      "snake": "hand_in"
+    },
+    "handed_in_at": {
+      "camel": "handedInAt",
+      "pascal": "HandedInAt",
+      "snake": "handed_in_at"
+    },
+    "httpServer": {
+      "camel": "httpServer",
+      "pascal": "HttpServer",
+      "snake": "http_server"
+    },
+    "id": {
+      "camel": "id",
+      "pascal": "Id",
+      "snake": "id"
+    },
+    "index": {
+      "camel": "index",
+      "pascal": "Index",
+      "snake": "index"
+    },
+    "invite": {
+      "camel": "invite",
+      "pascal": "Invite",
+      "snake": "invite"
+    },
+    "inviteLookup": {
+      "camel": "inviteLookup",
+      "pascal": "InviteLookup",
+      "snake": "invite_lookup"
+    },
+    "invite_lookup": {
+      "camel": "inviteLookup",
+      "pascal": "InviteLookup",
+      "snake": "invite_lookup"
+    },
+    "is_owner": {
+      "camel": "isOwner",
+      "pascal": "IsOwner",
+      "snake": "is_owner"
+    },
+    "joinNotebook": {
+      "camel": "joinNotebook",
+      "pascal": "JoinNotebook",
+      "snake": "join_notebook"
+    },
+    "join_notebook": {
+      "camel": "joinNotebook",
+      "pascal": "JoinNotebook",
+      "snake": "join_notebook"
+    },
+    "joined_at": {
+      "camel": "joinedAt",
+      "pascal": "JoinedAt",
+      "snake": "joined_at"
+    },
+    "kebab-case-name": {
+      "camel": "kebabCaseName",
+      "pascal": "KebabCaseName",
+      "snake": "kebab_case_name"
+    },
+    "key": {
+      "camel": "key",
+      "pascal": "Key",
+      "snake": "key"
+    },
+    "member": {
+      "camel": "member",
+      "pascal": "Member",
+      "snake": "member"
+    },
+    "mixed_UPPER_lower": {
+      "camel": "mixedUpperLower",
+      "pascal": "MixedUpperLower",
+      "snake": "mixed_upper_lower"
+    },
+    "myAssignments": {
+      "camel": "myAssignments",
+      "pascal": "MyAssignments",
+      "snake": "my_assignments"
+    },
+    "myLib": {
+      "camel": "myLib",
+      "pascal": "MyLib",
+      "snake": "my_lib"
+    },
+    "myNotebooks": {
+      "camel": "myNotebooks",
+      "pascal": "MyNotebooks",
+      "snake": "my_notebooks"
+    },
+    "mySubmissions": {
+      "camel": "mySubmissions",
+      "pascal": "MySubmissions",
+      "snake": "my_submissions"
+    },
+    "my_assignments": {
+      "camel": "myAssignments",
+      "pascal": "MyAssignments",
+      "snake": "my_assignments"
+    },
+    "my_lib": {
+      "camel": "myLib",
+      "pascal": "MyLib",
+      "snake": "my_lib"
+    },
+    "my_notebooks": {
+      "camel": "myNotebooks",
+      "pascal": "MyNotebooks",
+      "snake": "my_notebooks"
+    },
+    "my_submissions": {
+      "camel": "mySubmissions",
+      "pascal": "MySubmissions",
+      "snake": "my_submissions"
+    },
+    "notebook": {
+      "camel": "notebook",
+      "pascal": "Notebook",
+      "snake": "notebook"
+    },
+    "notebookChanges": {
+      "camel": "notebookChanges",
+      "pascal": "NotebookChanges",
+      "snake": "notebook_changes"
+    },
+    "notebookInvites": {
+      "camel": "notebookInvites",
+      "pascal": "NotebookInvites",
+      "snake": "notebook_invites"
+    },
+    "notebookMembers": {
+      "camel": "notebookMembers",
+      "pascal": "NotebookMembers",
+      "snake": "notebook_members"
+    },
+    "notebookSnapshot": {
+      "camel": "notebookSnapshot",
+      "pascal": "NotebookSnapshot",
+      "snake": "notebook_snapshot"
+    },
+    "notebook_changes": {
+      "camel": "notebookChanges",
+      "pascal": "NotebookChanges",
+      "snake": "notebook_changes"
+    },
+    "notebook_invites": {
+      "camel": "notebookInvites",
+      "pascal": "NotebookInvites",
+      "snake": "notebook_invites"
+    },
+    "notebook_members": {
+      "camel": "notebookMembers",
+      "pascal": "NotebookMembers",
+      "snake": "notebook_members"
+    },
+    "notebook_snapshot": {
+      "camel": "notebookSnapshot",
+      "pascal": "NotebookSnapshot",
+      "snake": "notebook_snapshot"
+    },
+    "number1st": {
+      "camel": "number1St",
+      "pascal": "Number1St",
+      "snake": "number_1_st"
+    },
+    "owner": {
+      "camel": "owner",
+      "pascal": "Owner",
+      "snake": "owner"
+    },
+    "owner_name": {
+      "camel": "ownerName",
+      "pascal": "OwnerName",
+      "snake": "owner_name"
+    },
+    "payload": {
+      "camel": "payload",
+      "pascal": "Payload",
+      "snake": "payload"
+    },
+    "profile": {
+      "camel": "profile",
+      "pascal": "Profile",
+      "snake": "profile"
+    },
+    "pushChanges": {
+      "camel": "pushChanges",
+      "pascal": "PushChanges",
+      "snake": "push_changes"
+    },
+    "push_changes": {
+      "camel": "pushChanges",
+      "pascal": "PushChanges",
+      "snake": "push_changes"
+    },
+    "putAssignmentChunk": {
+      "camel": "putAssignmentChunk",
+      "pascal": "PutAssignmentChunk",
+      "snake": "put_assignment_chunk"
+    },
+    "putResourceChunk": {
+      "camel": "putResourceChunk",
+      "pascal": "PutResourceChunk",
+      "snake": "put_resource_chunk"
+    },
+    "put_assignment_chunk": {
+      "camel": "putAssignmentChunk",
+      "pascal": "PutAssignmentChunk",
+      "snake": "put_assignment_chunk"
+    },
+    "put_resource_chunk": {
+      "camel": "putResourceChunk",
+      "pascal": "PutResourceChunk",
+      "snake": "put_resource_chunk"
+    },
+    "removeMember": {
+      "camel": "removeMember",
+      "pascal": "RemoveMember",
+      "snake": "remove_member"
+    },
+    "remove_member": {
+      "camel": "removeMember",
+      "pascal": "RemoveMember",
+      "snake": "remove_member"
+    },
+    "resource": {
+      "camel": "resource",
+      "pascal": "Resource",
+      "snake": "resource"
+    },
+    "resourceChunk": {
+      "camel": "resourceChunk",
+      "pascal": "ResourceChunk",
+      "snake": "resource_chunk"
+    },
+    "resourceChunkAt": {
+      "camel": "resourceChunkAt",
+      "pascal": "ResourceChunkAt",
+      "snake": "resource_chunk_at"
+    },
+    "resource_chunk": {
+      "camel": "resourceChunk",
+      "pascal": "ResourceChunk",
+      "snake": "resource_chunk"
+    },
+    "resource_chunk_at": {
+      "camel": "resourceChunkAt",
+      "pascal": "ResourceChunkAt",
+      "snake": "resource_chunk_at"
+    },
+    "revokeInvite": {
+      "camel": "revokeInvite",
+      "pascal": "RevokeInvite",
+      "snake": "revoke_invite"
+    },
+    "revoke_invite": {
+      "camel": "revokeInvite",
+      "pascal": "RevokeInvite",
+      "snake": "revoke_invite"
+    },
+    "role": {
+      "camel": "role",
+      "pascal": "Role",
+      "snake": "role"
+    },
+    "secret": {
+      "camel": "secret",
+      "pascal": "Secret",
+      "snake": "secret"
+    },
+    "seq": {
+      "camel": "seq",
+      "pascal": "Seq",
+      "snake": "seq"
+    },
+    "setAssignmentClosed": {
+      "camel": "setAssignmentClosed",
+      "pascal": "SetAssignmentClosed",
+      "snake": "set_assignment_closed"
+    },
+    "setInviteTitle": {
+      "camel": "setInviteTitle",
+      "pascal": "SetInviteTitle",
+      "snake": "set_invite_title"
+    },
+    "setMemberRole": {
+      "camel": "setMemberRole",
+      "pascal": "SetMemberRole",
+      "snake": "set_member_role"
+    },
+    "setProfile": {
+      "camel": "setProfile",
+      "pascal": "SetProfile",
+      "snake": "set_profile"
+    },
+    "set_assignment_closed": {
+      "camel": "setAssignmentClosed",
+      "pascal": "SetAssignmentClosed",
+      "snake": "set_assignment_closed"
+    },
+    "set_invite_title": {
+      "camel": "setInviteTitle",
+      "pascal": "SetInviteTitle",
+      "snake": "set_invite_title"
+    },
+    "set_member_role": {
+      "camel": "setMemberRole",
+      "pascal": "SetMemberRole",
+      "snake": "set_member_role"
+    },
+    "set_profile": {
+      "camel": "setProfile",
+      "pascal": "SetProfile",
+      "snake": "set_profile"
+    },
+    "sha_256": {
+      "camel": "sha256",
+      "pascal": "Sha256",
+      "snake": "sha_256"
+    },
+    "shareNotebook": {
+      "camel": "shareNotebook",
+      "pascal": "ShareNotebook",
+      "snake": "share_notebook"
+    },
+    "share_notebook": {
+      "camel": "shareNotebook",
+      "pascal": "ShareNotebook",
+      "snake": "share_notebook"
+    },
+    "snake_case_name": {
+      "camel": "snakeCaseName",
+      "pascal": "SnakeCaseName",
+      "snake": "snake_case_name"
+    },
+    "snapshot": {
+      "camel": "snapshot",
+      "pascal": "Snapshot",
+      "snake": "snapshot"
+    },
+    "stamp": {
+      "camel": "stamp",
+      "pascal": "Stamp",
+      "snake": "stamp"
+    },
+    "startAssignment": {
+      "camel": "startAssignment",
+      "pascal": "StartAssignment",
+      "snake": "start_assignment"
+    },
+    "start_assignment": {
+      "camel": "startAssignment",
+      "pascal": "StartAssignment",
+      "snake": "start_assignment"
+    },
+    "started_at": {
+      "camel": "startedAt",
+      "pascal": "StartedAt",
+      "snake": "started_at"
+    },
+    "state": {
+      "camel": "state",
+      "pascal": "State",
+      "snake": "state"
+    },
+    "student": {
+      "camel": "student",
+      "pascal": "Student",
+      "snake": "student"
+    },
+    "submission": {
+      "camel": "submission",
+      "pascal": "Submission",
+      "snake": "submission"
+    },
+    "table_v2": {
+      "camel": "tableV2",
+      "pascal": "TableV2",
+      "snake": "table_v_2"
+    },
+    "template": {
+      "camel": "template",
+      "pascal": "Template",
+      "snake": "template"
+    },
+    "title": {
+      "camel": "title",
+      "pascal": "Title",
+      "snake": "title"
+    },
+    "trailing_": {
+      "camel": "trailing",
+      "pascal": "Trailing",
+      "snake": "trailing"
+    },
+    "u8_array": {
+      "camel": "u8Array",
+      "pascal": "U8Array",
+      "snake": "u_8_array"
+    },
+    "unpublish": {
+      "camel": "unpublish",
+      "pascal": "Unpublish",
+      "snake": "unpublish"
+    },
+    "unsubmit": {
+      "camel": "unsubmit",
+      "pascal": "Unsubmit",
+      "snake": "unsubmit"
+    },
+    "user": {
+      "camel": "user",
+      "pascal": "User",
+      "snake": "user"
+    },
+    "user2Name": {
+      "camel": "user2Name",
+      "pascal": "User2Name",
+      "snake": "user_2_name"
+    },
+    "userID": {
+      "camel": "userId",
+      "pascal": "UserId",
+      "snake": "user_id"
+    },
+    "user_2_name": {
+      "camel": "user2Name",
+      "pascal": "User2Name",
+      "snake": "user_2_name"
+    },
+    "v2": {
+      "camel": "v2",
+      "pascal": "V2",
+      "snake": "v_2"
+    },
+    "v2_table": {
+      "camel": "v2Table",
+      "pascal": "V2Table",
+      "snake": "v_2_table"
+    },
+    "vec3d": {
+      "camel": "vec3D",
+      "pascal": "Vec3D",
+      "snake": "vec_3_d"
+    },
+    "via_publish_link": {
+      "camel": "viaPublishLink",
+      "pascal": "ViaPublishLink",
+      "snake": "via_publish_link"
+    },
+    "with space": {
+      "camel": "withSpace",
+      "pascal": "WithSpace",
+      "snake": "with_space"
+    },
+    "x": {
+      "camel": "x",
+      "pascal": "X",
+      "snake": "x"
+    }
+  },
+  "model": {
+    "accessor_path_segments": [],
+    "path": "",
+    "path_segments": [],
+    "procedures": [],
+    "reducers": [
+      {
+        "accessor_name": "createAssignment",
+        "lifecycle": null,
+        "name": "create_assignment",
+        "params_for_generate": [
+          {
+            "name": "id",
+            "type": "String"
+          },
+          {
+            "name": "secret",
+            "type": "String"
+          },
+          {
+            "name": "title",
+            "type": "String"
+          },
+          {
+            "name": "snapshot",
+            "type": {
+              "Array": {
+                "Primitive": "U8"
+              }
+            }
+          },
+          {
+            "name": "template",
+            "type": "String"
+          }
+        ],
+        "private": false
+      },
+      {
+        "accessor_name": "createInvite",
+        "lifecycle": null,
+        "name": "create_invite",
+        "params_for_generate": [
+          {
+            "name": "notebook",
+            "type": "String"
+          },
+          {
+            "name": "secret",
+            "type": "String"
+          },
+          {
+            "name": "role",
+            "type": "String"
+          },
+          {
+            "name": "title",
+            "type": "String"
+          }
+        ],
+        "private": false
+      },
+      {
+        "accessor_name": "handIn",
+        "lifecycle": null,
+        "name": "hand_in",
+        "params_for_generate": [
+          {
+            "name": "notebook",
+            "type": "String"
+          }
+        ],
+        "private": false
+      },
+      {
+        "accessor_name": "joinNotebook",
+        "lifecycle": null,
+        "name": "join_notebook",
+        "params_for_generate": [
+          {
+            "name": "notebook",
+            "type": "String"
+          },
+          {
+            "name": "secret",
+            "type": "String"
+          }
+        ],
+        "private": false
+      },
+      {
+        "accessor_name": "pushChanges",
+        "lifecycle": null,
+        "name": "push_changes",
+        "params_for_generate": [
+          {
+            "name": "notebook",
+            "type": "String"
+          },
+          {
+            "name": "changes",
+            "type": {
+              "Array": {
+                "Ref": 32
+              }
+            }
+          }
+        ],
+        "private": false
+      },
+      {
+        "accessor_name": "putAssignmentChunk",
+        "lifecycle": null,
+        "name": "put_assignment_chunk",
+        "params_for_generate": [
+          {
+            "name": "assignment",
+            "type": "String"
+          },
+          {
+            "name": "sha_256",
+            "type": "String"
+          },
+          {
+            "name": "index",
+            "type": {
+              "Primitive": "U32"
+            }
+          },
+          {
+            "name": "data",
+            "type": {
+              "Array": {
+                "Primitive": "U8"
+              }
+            }
+          }
+        ],
+        "private": false
+      },
+      {
+        "accessor_name": "putResourceChunk",
+        "lifecycle": null,
+        "name": "put_resource_chunk",
+        "params_for_generate": [
+          {
+            "name": "notebook",
+            "type": "String"
+          },
+          {
+            "name": "sha_256",
+            "type": "String"
+          },
+          {
+            "name": "index",
+            "type": {
+              "Primitive": "U32"
+            }
+          },
+          {
+            "name": "data",
+            "type": {
+              "Array": {
+                "Primitive": "U8"
+              }
+            }
+          }
+        ],
+        "private": false
+      },
+      {
+        "accessor_name": "removeMember",
+        "lifecycle": null,
+        "name": "remove_member",
+        "params_for_generate": [
+          {
+            "name": "notebook",
+            "type": "String"
+          },
+          {
+            "name": "user",
+            "type": "Identity"
+          }
+        ],
+        "private": false
+      },
+      {
+        "accessor_name": "revokeInvite",
+        "lifecycle": null,
+        "name": "revoke_invite",
+        "params_for_generate": [
+          {
+            "name": "notebook",
+            "type": "String"
+          },
+          {
+            "name": "secret",
+            "type": "String"
+          }
+        ],
+        "private": false
+      },
+      {
+        "accessor_name": "setAssignmentClosed",
+        "lifecycle": null,
+        "name": "set_assignment_closed",
+        "params_for_generate": [
+          {
+            "name": "id",
+            "type": "String"
+          },
+          {
+            "name": "closed",
+            "type": {
+              "Primitive": "Bool"
+            }
+          }
+        ],
+        "private": false
+      },
+      {
+        "accessor_name": "setInviteTitle",
+        "lifecycle": null,
+        "name": "set_invite_title",
+        "params_for_generate": [
+          {
+            "name": "notebook",
+            "type": "String"
+          },
+          {
+            "name": "title",
+            "type": "String"
+          }
+        ],
+        "private": false
+      },
+      {
+        "accessor_name": "setMemberRole",
+        "lifecycle": null,
+        "name": "set_member_role",
+        "params_for_generate": [
+          {
+            "name": "notebook",
+            "type": "String"
+          },
+          {
+            "name": "user",
+            "type": "Identity"
+          },
+          {
+            "name": "role",
+            "type": "String"
+          }
+        ],
+        "private": false
+      },
+      {
+        "accessor_name": "setProfile",
+        "lifecycle": null,
+        "name": "set_profile",
+        "params_for_generate": [
+          {
+            "name": "display_name",
+            "type": "String"
+          }
+        ],
+        "private": false
+      },
+      {
+        "accessor_name": "shareNotebook",
+        "lifecycle": null,
+        "name": "share_notebook",
+        "params_for_generate": [
+          {
+            "name": "notebook",
+            "type": "String"
+          },
+          {
+            "name": "snapshot",
+            "type": {
+              "Array": {
+                "Primitive": "U8"
+              }
+            }
+          }
+        ],
+        "private": false
+      },
+      {
+        "accessor_name": "startAssignment",
+        "lifecycle": null,
+        "name": "start_assignment",
+        "params_for_generate": [
+          {
+            "name": "secret",
+            "type": "String"
+          },
+          {
+            "name": "notebook",
+            "type": "String"
+          },
+          {
+            "name": "snapshot",
+            "type": {
+              "Array": {
+                "Primitive": "U8"
+              }
+            }
+          }
+        ],
+        "private": false
+      },
+      {
+        "accessor_name": "unpublish",
+        "lifecycle": null,
+        "name": "unpublish",
+        "params_for_generate": [
+          {
+            "name": "notebook",
+            "type": "String"
+          }
+        ],
+        "private": false
+      },
+      {
+        "accessor_name": "unsubmit",
+        "lifecycle": null,
+        "name": "unsubmit",
+        "params_for_generate": [
+          {
+            "name": "notebook",
+            "type": "String"
+          }
+        ],
+        "private": false
+      }
+    ],
+    "submodules": [],
+    "tables": [
+      {
+        "accessor_name": "resourceChunk",
+        "columns": [
+          {
+            "accessor_name": "key",
+            "name": "key"
+          },
+          {
+            "accessor_name": "resource",
+            "name": "resource"
+          },
+          {
+            "accessor_name": "index",
+            "name": "index"
+          },
+          {
+            "accessor_name": "data",
+            "name": "data"
+          }
+        ],
+        "indexes": [
+          {
+            "accessor_name": "key",
+            "algorithm": "BTree",
+            "columns": [
+              0
+            ],
+            "is_unique": true,
+            "name": "resource_chunk_key_idx_btree"
+          },
+          {
+            "accessor_name": "resource",
+            "algorithm": "BTree",
+            "columns": [
+              1
+            ],
+            "is_unique": false,
+            "name": "resource_chunk_resource_idx_btree"
+          }
+        ],
+        "is_event": false,
+        "name": "resource_chunk",
+        "primary_key": 0,
+        "product_type_ref": 4,
+        "public": false
+      },
+      {
+        "accessor_name": "submission",
+        "columns": [
+          {
+            "accessor_name": "id",
+            "name": "id"
+          },
+          {
+            "accessor_name": "assignment",
+            "name": "assignment"
+          },
+          {
+            "accessor_name": "student",
+            "name": "student"
+          },
+          {
+            "accessor_name": "notebook",
+            "name": "notebook"
+          },
+          {
+            "accessor_name": "state",
+            "name": "state"
+          },
+          {
+            "accessor_name": "started_at",
+            "name": "started_at"
+          },
+          {
+            "accessor_name": "handed_in_at",
+            "name": "handed_in_at"
+          }
+        ],
+        "indexes": [
+          {
+            "accessor_name": "assignment",
+            "algorithm": "BTree",
+            "columns": [
+              1
+            ],
+            "is_unique": false,
+            "name": "submission_assignment_idx_btree"
+          },
+          {
+            "accessor_name": "id",
+            "algorithm": "BTree",
+            "columns": [
+              0
+            ],
+            "is_unique": true,
+            "name": "submission_id_idx_btree"
+          },
+          {
+            "accessor_name": "notebook",
+            "algorithm": "BTree",
+            "columns": [
+              3
+            ],
+            "is_unique": true,
+            "name": "submission_notebook_idx_btree"
+          },
+          {
+            "accessor_name": "student",
+            "algorithm": "BTree",
+            "columns": [
+              2
+            ],
+            "is_unique": false,
+            "name": "submission_student_idx_btree"
+          }
+        ],
+        "is_event": false,
+        "name": "submission",
+        "primary_key": 0,
+        "product_type_ref": 7,
+        "public": false
+      },
+      {
+        "accessor_name": "change",
+        "columns": [
+          {
+            "accessor_name": "seq",
+            "name": "seq"
+          },
+          {
+            "accessor_name": "notebook",
+            "name": "notebook"
+          },
+          {
+            "accessor_name": "key",
+            "name": "key"
+          },
+          {
+            "accessor_name": "payload",
+            "name": "payload"
+          }
+        ],
+        "indexes": [
+          {
+            "accessor_name": "key",
+            "algorithm": "BTree",
+            "columns": [
+              2
+            ],
+            "is_unique": true,
+            "name": "change_key_idx_btree"
+          },
+          {
+            "accessor_name": "notebook",
+            "algorithm": "BTree",
+            "columns": [
+              1
+            ],
+            "is_unique": false,
+            "name": "change_notebook_idx_btree"
+          },
+          {
+            "accessor_name": "seq",
+            "algorithm": "BTree",
+            "columns": [
+              0
+            ],
+            "is_unique": true,
+            "name": "change_seq_idx_btree"
+          }
+        ],
+        "is_event": false,
+        "name": "change",
+        "primary_key": 0,
+        "product_type_ref": 2,
+        "public": false
+      },
+      {
+        "accessor_name": "member",
+        "columns": [
+          {
+            "accessor_name": "id",
+            "name": "id"
+          },
+          {
+            "accessor_name": "notebook",
+            "name": "notebook"
+          },
+          {
+            "accessor_name": "user",
+            "name": "user"
+          },
+          {
+            "accessor_name": "joined_at",
+            "name": "joined_at"
+          },
+          {
+            "accessor_name": "role",
+            "name": "role"
+          },
+          {
+            "accessor_name": "via_publish_link",
+            "name": "via_publish_link"
+          }
+        ],
+        "indexes": [
+          {
+            "accessor_name": "id",
+            "algorithm": "BTree",
+            "columns": [
+              0
+            ],
+            "is_unique": true,
+            "name": "member_id_idx_btree"
+          },
+          {
+            "accessor_name": "notebook",
+            "algorithm": "BTree",
+            "columns": [
+              1
+            ],
+            "is_unique": false,
+            "name": "member_notebook_idx_btree"
+          },
+          {
+            "accessor_name": "user",
+            "algorithm": "BTree",
+            "columns": [
+              2
+            ],
+            "is_unique": false,
+            "name": "member_user_idx_btree"
+          }
+        ],
+        "is_event": false,
+        "name": "member",
+        "primary_key": 0,
+        "product_type_ref": 1,
+        "public": false
+      },
+      {
+        "accessor_name": "invite",
+        "columns": [
+          {
+            "accessor_name": "secret",
+            "name": "secret"
+          },
+          {
+            "accessor_name": "notebook",
+            "name": "notebook"
+          },
+          {
+            "accessor_name": "expires_at",
+            "name": "expires_at"
+          },
+          {
+            "accessor_name": "role",
+            "name": "role"
+          },
+          {
+            "accessor_name": "title",
+            "name": "title"
+          }
+        ],
+        "indexes": [
+          {
+            "accessor_name": "notebook",
+            "algorithm": "BTree",
+            "columns": [
+              1
+            ],
+            "is_unique": false,
+            "name": "invite_notebook_idx_btree"
+          },
+          {
+            "accessor_name": "secret",
+            "algorithm": "BTree",
+            "columns": [
+              0
+            ],
+            "is_unique": true,
+            "name": "invite_secret_idx_btree"
+          }
+        ],
+        "is_event": false,
+        "name": "invite",
+        "primary_key": 0,
+        "product_type_ref": 3,
+        "public": false
+      },
+      {
+        "accessor_name": "profile",
+        "columns": [
+          {
+            "accessor_name": "user",
+            "name": "user"
+          },
+          {
+            "accessor_name": "display_name",
+            "name": "display_name"
+          }
+        ],
+        "indexes": [
+          {
+            "accessor_name": "user",
+            "algorithm": "BTree",
+            "columns": [
+              0
+            ],
+            "is_unique": true,
+            "name": "profile_user_idx_btree"
+          }
+        ],
+        "is_event": false,
+        "name": "profile",
+        "primary_key": 0,
+        "product_type_ref": 5,
+        "public": false
+      },
+      {
+        "accessor_name": "notebook",
+        "columns": [
+          {
+            "accessor_name": "id",
+            "name": "id"
+          },
+          {
+            "accessor_name": "owner",
+            "name": "owner"
+          },
+          {
+            "accessor_name": "snapshot",
+            "name": "snapshot"
+          },
+          {
+            "accessor_name": "created_at",
+            "name": "created_at"
+          }
+        ],
+        "indexes": [
+          {
+            "accessor_name": "id",
+            "algorithm": "BTree",
+            "columns": [
+              0
+            ],
+            "is_unique": true,
+            "name": "notebook_id_idx_btree"
+          }
+        ],
+        "is_event": false,
+        "name": "notebook",
+        "primary_key": 0,
+        "product_type_ref": 0,
+        "public": false
+      },
+      {
+        "accessor_name": "assignment",
+        "columns": [
+          {
+            "accessor_name": "id",
+            "name": "id"
+          },
+          {
+            "accessor_name": "owner",
+            "name": "owner"
+          },
+          {
+            "accessor_name": "secret",
+            "name": "secret"
+          },
+          {
+            "accessor_name": "title",
+            "name": "title"
+          },
+          {
+            "accessor_name": "snapshot",
+            "name": "snapshot"
+          },
+          {
+            "accessor_name": "due_at",
+            "name": "due_at"
+          },
+          {
+            "accessor_name": "created_at",
+            "name": "created_at"
+          },
+          {
+            "accessor_name": "closed",
+            "name": "closed"
+          },
+          {
+            "accessor_name": "template",
+            "name": "template"
+          }
+        ],
+        "indexes": [
+          {
+            "accessor_name": "id",
+            "algorithm": "BTree",
+            "columns": [
+              0
+            ],
+            "is_unique": true,
+            "name": "assignment_id_idx_btree"
+          },
+          {
+            "accessor_name": "owner",
+            "algorithm": "BTree",
+            "columns": [
+              1
+            ],
+            "is_unique": false,
+            "name": "assignment_owner_idx_btree"
+          },
+          {
+            "accessor_name": "secret",
+            "algorithm": "BTree",
+            "columns": [
+              2
+            ],
+            "is_unique": true,
+            "name": "assignment_secret_idx_btree"
+          }
+        ],
+        "is_event": false,
+        "name": "assignment",
+        "primary_key": 0,
+        "product_type_ref": 6,
+        "public": false
+      }
+    ],
+    "types": [
+      {
+        "name_segments": [
+          "MyAssignments"
+        ],
+        "ref": 21
+      },
+      {
+        "name_segments": [
+          "ResourceChunk"
+        ],
+        "ref": 4
+      },
+      {
+        "name_segments": [
+          "ShareNotebook"
+        ],
+        "ref": 42
+      },
+      {
+        "name_segments": [
+          "InviteTarget"
+        ],
+        "ref": 17
+      },
+      {
+        "name_segments": [
+          "AssignmentSubmissions"
+        ],
+        "ref": 11
+      },
+      {
+        "name_segments": [
+          "PutAssignmentChunk"
+        ],
+        "ref": 33
+      },
+      {
+        "name_segments": [
+          "Unpublish"
+        ],
+        "ref": 44
+      },
+      {
+        "name_segments": [
+          "MySubmission"
+        ],
+        "ref": 24
+      },
+      {
+        "name_segments": [
+          "MyNotebooks"
+        ],
+        "ref": 23
+      },
+      {
+        "name_segments": [
+          "Assignment"
+        ],
+        "ref": 6
+      },
+      {
+        "name_segments": [
+          "AssignmentSubmission"
+        ],
+        "ref": 10
+      },
+      {
+        "name_segments": [
+          "RevokeInvite"
+        ],
+        "ref": 37
+      },
+      {
+        "name_segments": [
+          "MyNotebook"
+        ],
+        "ref": 22
+      },
+      {
+        "name_segments": [
+          "NotebookInvites"
+        ],
+        "ref": 27
+      },
+      {
+        "name_segments": [
+          "SetMemberRole"
+        ],
+        "ref": 40
+      },
+      {
+        "name_segments": [
+          "Member"
+        ],
+        "ref": 1
+      },
+      {
+        "name_segments": [
+          "NotebookChanges"
+        ],
+        "ref": 26
+      },
+      {
+        "name_segments": [
+          "PushChanges"
+        ],
+        "ref": 31
+      },
+      {
+        "name_segments": [
+          "Profile"
+        ],
+        "ref": 5
+      },
+      {
+        "name_segments": [
+          "Change"
+        ],
+        "ref": 2
+      },
+      {
+        "name_segments": [
+          "Submission"
+        ],
+        "ref": 7
+      },
+      {
+        "name_segments": [
+          "InviteLookup"
+        ],
+        "ref": 18
+      },
+      {
+        "name_segments": [
+          "SetProfile"
+        ],
+        "ref": 41
+      },
+      {
+        "name_segments": [
+          "StartAssignment"
+        ],
+        "ref": 43
+      },
+      {
+        "name_segments": [
+          "Invite"
+        ],
+        "ref": 3
+      },
+      {
+        "name_segments": [
+          "ChangeUpload"
+        ],
+        "ref": 32
+      },
+      {
+        "name_segments": [
+          "CreateInvite"
+        ],
+        "ref": 15
+      },
+      {
+        "name_segments": [
+          "NotebookMember"
+        ],
+        "ref": 28
+      },
+      {
+        "name_segments": [
+          "MyAssignment"
+        ],
+        "ref": 20
+      },
+      {
+        "name_segments": [
+          "RemoveMember"
+        ],
+        "ref": 35
+      },
+      {
+        "name_segments": [
+          "NotebookMembers"
+        ],
+        "ref": 29
+      },
+      {
+        "name_segments": [
+          "AssignmentTarget"
+        ],
+        "ref": 8
+      },
+      {
+        "name_segments": [
+          "AssignmentLookup"
+        ],
+        "ref": 9
+      },
+      {
+        "name_segments": [
+          "HandIn"
+        ],
+        "ref": 16
+      },
+      {
+        "name_segments": [
+          "Notebook"
+        ],
+        "ref": 0
+      },
+      {
+        "name_segments": [
+          "NotebookSnapshot"
+        ],
+        "ref": 30
+      },
+      {
+        "name_segments": [
+          "Unsubmit"
+        ],
+        "ref": 45
+      },
+      {
+        "name_segments": [
+          "JoinNotebook"
+        ],
+        "ref": 19
+      },
+      {
+        "name_segments": [
+          "PutResourceChunk"
+        ],
+        "ref": 34
+      },
+      {
+        "name_segments": [
+          "AssignmentTemplate"
+        ],
+        "ref": 13
+      },
+      {
+        "name_segments": [
+          "CreateAssignment"
+        ],
+        "ref": 14
+      },
+      {
+        "name_segments": [
+          "ResourceChunkAt"
+        ],
+        "ref": 36
+      },
+      {
+        "name_segments": [
+          "SetAssignmentClosed"
+        ],
+        "ref": 38
+      },
+      {
+        "name_segments": [
+          "SetInviteTitle"
+        ],
+        "ref": 39
+      },
+      {
+        "name_segments": [
+          "TemplateSnapshot"
+        ],
+        "ref": 12
+      },
+      {
+        "name_segments": [
+          "MySubmissions"
+        ],
+        "ref": 25
+      }
+    ],
+    "typespace_for_generate": {
+      "0": {
+        "Product": {
+          "elements": [
+            {
+              "name": "id",
+              "type": "String"
+            },
+            {
+              "name": "owner",
+              "type": "Identity"
+            },
+            {
+              "name": "snapshot",
+              "type": {
+                "Array": {
+                  "Primitive": "U8"
+                }
+              }
+            },
+            {
+              "name": "created_at",
+              "type": "Timestamp"
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "1": {
+        "Product": {
+          "elements": [
+            {
+              "name": "id",
+              "type": "String"
+            },
+            {
+              "name": "notebook",
+              "type": "String"
+            },
+            {
+              "name": "user",
+              "type": "Identity"
+            },
+            {
+              "name": "joined_at",
+              "type": "Timestamp"
+            },
+            {
+              "name": "role",
+              "type": "String"
+            },
+            {
+              "name": "via_publish_link",
+              "type": {
+                "Primitive": "Bool"
+              }
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "10": {
+        "Product": {
+          "elements": [
+            {
+              "name": "student",
+              "type": "Identity"
+            },
+            {
+              "name": "display_name",
+              "type": "String"
+            },
+            {
+              "name": "notebook",
+              "type": "String"
+            },
+            {
+              "name": "state",
+              "type": "String"
+            },
+            {
+              "name": "started_at",
+              "type": "Timestamp"
+            },
+            {
+              "name": "handed_in_at",
+              "type": "Timestamp"
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "11": {
+        "Product": {
+          "elements": [
+            {
+              "name": "assignment",
+              "type": "String"
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "12": {
+        "Product": {
+          "elements": [
+            {
+              "name": "assignment",
+              "type": "String"
+            },
+            {
+              "name": "snapshot",
+              "type": {
+                "Array": {
+                  "Primitive": "U8"
+                }
+              }
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "13": {
+        "Product": {
+          "elements": [
+            {
+              "name": "secret",
+              "type": "String"
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "14": {
+        "Product": {
+          "elements": [
+            {
+              "name": "id",
+              "type": "String"
+            },
+            {
+              "name": "secret",
+              "type": "String"
+            },
+            {
+              "name": "title",
+              "type": "String"
+            },
+            {
+              "name": "snapshot",
+              "type": {
+                "Array": {
+                  "Primitive": "U8"
+                }
+              }
+            },
+            {
+              "name": "template",
+              "type": "String"
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "15": {
+        "Product": {
+          "elements": [
+            {
+              "name": "notebook",
+              "type": "String"
+            },
+            {
+              "name": "secret",
+              "type": "String"
+            },
+            {
+              "name": "role",
+              "type": "String"
+            },
+            {
+              "name": "title",
+              "type": "String"
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "16": {
+        "Product": {
+          "elements": [
+            {
+              "name": "notebook",
+              "type": "String"
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "17": {
+        "Product": {
+          "elements": [
+            {
+              "name": "notebook",
+              "type": "String"
+            },
+            {
+              "name": "expires_at",
+              "type": "Timestamp"
+            },
+            {
+              "name": "role",
+              "type": "String"
+            },
+            {
+              "name": "title",
+              "type": "String"
+            },
+            {
+              "name": "owner_name",
+              "type": "String"
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "18": {
+        "Product": {
+          "elements": [
+            {
+              "name": "secret",
+              "type": "String"
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "19": {
+        "Product": {
+          "elements": [
+            {
+              "name": "notebook",
+              "type": "String"
+            },
+            {
+              "name": "secret",
+              "type": "String"
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "2": {
+        "Product": {
+          "elements": [
+            {
+              "name": "seq",
+              "type": {
+                "Primitive": "U64"
+              }
+            },
+            {
+              "name": "notebook",
+              "type": "String"
+            },
+            {
+              "name": "key",
+              "type": "String"
+            },
+            {
+              "name": "payload",
+              "type": {
+                "Array": {
+                  "Primitive": "U8"
+                }
+              }
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "20": {
+        "Product": {
+          "elements": [
+            {
+              "name": "id",
+              "type": "String"
+            },
+            {
+              "name": "secret",
+              "type": "String"
+            },
+            {
+              "name": "title",
+              "type": "String"
+            },
+            {
+              "name": "created_at",
+              "type": "Timestamp"
+            },
+            {
+              "name": "closed",
+              "type": {
+                "Primitive": "Bool"
+              }
+            },
+            {
+              "name": "template",
+              "type": "String"
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "21": {
+        "Product": {
+          "elements": [],
+          "recursive": false
+        }
+      },
+      "22": {
+        "Product": {
+          "elements": [
+            {
+              "name": "notebook",
+              "type": "String"
+            },
+            {
+              "name": "is_owner",
+              "type": {
+                "Primitive": "Bool"
+              }
+            },
+            {
+              "name": "role",
+              "type": "String"
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "23": {
+        "Product": {
+          "elements": [],
+          "recursive": false
+        }
+      },
+      "24": {
+        "Product": {
+          "elements": [
+            {
+              "name": "assignment",
+              "type": "String"
+            },
+            {
+              "name": "notebook",
+              "type": "String"
+            },
+            {
+              "name": "state",
+              "type": "String"
+            },
+            {
+              "name": "title",
+              "type": "String"
+            },
+            {
+              "name": "owner_name",
+              "type": "String"
+            },
+            {
+              "name": "closed",
+              "type": {
+                "Primitive": "Bool"
+              }
+            },
+            {
+              "name": "handed_in_at",
+              "type": "Timestamp"
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "25": {
+        "Product": {
+          "elements": [],
+          "recursive": false
+        }
+      },
+      "26": {
+        "Product": {
+          "elements": [
+            {
+              "name": "notebook",
+              "type": "String"
+            },
+            {
+              "name": "after",
+              "type": {
+                "Primitive": "U64"
+              }
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "27": {
+        "Product": {
+          "elements": [
+            {
+              "name": "notebook",
+              "type": "String"
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "28": {
+        "Product": {
+          "elements": [
+            {
+              "name": "user",
+              "type": "Identity"
+            },
+            {
+              "name": "is_owner",
+              "type": {
+                "Primitive": "Bool"
+              }
+            },
+            {
+              "name": "joined_at",
+              "type": "Timestamp"
+            },
+            {
+              "name": "role",
+              "type": "String"
+            },
+            {
+              "name": "via_publish_link",
+              "type": {
+                "Primitive": "Bool"
+              }
+            },
+            {
+              "name": "display_name",
+              "type": "String"
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "29": {
+        "Product": {
+          "elements": [
+            {
+              "name": "notebook",
+              "type": "String"
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "3": {
+        "Product": {
+          "elements": [
+            {
+              "name": "secret",
+              "type": "String"
+            },
+            {
+              "name": "notebook",
+              "type": "String"
+            },
+            {
+              "name": "expires_at",
+              "type": "Timestamp"
+            },
+            {
+              "name": "role",
+              "type": "String"
+            },
+            {
+              "name": "title",
+              "type": "String"
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "30": {
+        "Product": {
+          "elements": [
+            {
+              "name": "notebook",
+              "type": "String"
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "31": {
+        "Product": {
+          "elements": [
+            {
+              "name": "notebook",
+              "type": "String"
+            },
+            {
+              "name": "changes",
+              "type": {
+                "Array": {
+                  "Ref": 32
+                }
+              }
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "32": {
+        "Product": {
+          "elements": [
+            {
+              "name": "stamp",
+              "type": "String"
+            },
+            {
+              "name": "payload",
+              "type": {
+                "Array": {
+                  "Primitive": "U8"
+                }
+              }
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "33": {
+        "Product": {
+          "elements": [
+            {
+              "name": "assignment",
+              "type": "String"
+            },
+            {
+              "name": "sha_256",
+              "type": "String"
+            },
+            {
+              "name": "index",
+              "type": {
+                "Primitive": "U32"
+              }
+            },
+            {
+              "name": "data",
+              "type": {
+                "Array": {
+                  "Primitive": "U8"
+                }
+              }
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "34": {
+        "Product": {
+          "elements": [
+            {
+              "name": "notebook",
+              "type": "String"
+            },
+            {
+              "name": "sha_256",
+              "type": "String"
+            },
+            {
+              "name": "index",
+              "type": {
+                "Primitive": "U32"
+              }
+            },
+            {
+              "name": "data",
+              "type": {
+                "Array": {
+                  "Primitive": "U8"
+                }
+              }
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "35": {
+        "Product": {
+          "elements": [
+            {
+              "name": "notebook",
+              "type": "String"
+            },
+            {
+              "name": "user",
+              "type": "Identity"
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "36": {
+        "Product": {
+          "elements": [
+            {
+              "name": "notebook",
+              "type": "String"
+            },
+            {
+              "name": "sha_256",
+              "type": "String"
+            },
+            {
+              "name": "index",
+              "type": {
+                "Primitive": "U32"
+              }
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "37": {
+        "Product": {
+          "elements": [
+            {
+              "name": "notebook",
+              "type": "String"
+            },
+            {
+              "name": "secret",
+              "type": "String"
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "38": {
+        "Product": {
+          "elements": [
+            {
+              "name": "id",
+              "type": "String"
+            },
+            {
+              "name": "closed",
+              "type": {
+                "Primitive": "Bool"
+              }
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "39": {
+        "Product": {
+          "elements": [
+            {
+              "name": "notebook",
+              "type": "String"
+            },
+            {
+              "name": "title",
+              "type": "String"
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "4": {
+        "Product": {
+          "elements": [
+            {
+              "name": "key",
+              "type": "String"
+            },
+            {
+              "name": "resource",
+              "type": "String"
+            },
+            {
+              "name": "index",
+              "type": {
+                "Primitive": "U32"
+              }
+            },
+            {
+              "name": "data",
+              "type": {
+                "Array": {
+                  "Primitive": "U8"
+                }
+              }
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "40": {
+        "Product": {
+          "elements": [
+            {
+              "name": "notebook",
+              "type": "String"
+            },
+            {
+              "name": "user",
+              "type": "Identity"
+            },
+            {
+              "name": "role",
+              "type": "String"
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "41": {
+        "Product": {
+          "elements": [
+            {
+              "name": "display_name",
+              "type": "String"
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "42": {
+        "Product": {
+          "elements": [
+            {
+              "name": "notebook",
+              "type": "String"
+            },
+            {
+              "name": "snapshot",
+              "type": {
+                "Array": {
+                  "Primitive": "U8"
+                }
+              }
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "43": {
+        "Product": {
+          "elements": [
+            {
+              "name": "secret",
+              "type": "String"
+            },
+            {
+              "name": "notebook",
+              "type": "String"
+            },
+            {
+              "name": "snapshot",
+              "type": {
+                "Array": {
+                  "Primitive": "U8"
+                }
+              }
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "44": {
+        "Product": {
+          "elements": [
+            {
+              "name": "notebook",
+              "type": "String"
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "45": {
+        "Product": {
+          "elements": [
+            {
+              "name": "notebook",
+              "type": "String"
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "5": {
+        "Product": {
+          "elements": [
+            {
+              "name": "user",
+              "type": "Identity"
+            },
+            {
+              "name": "display_name",
+              "type": "String"
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "6": {
+        "Product": {
+          "elements": [
+            {
+              "name": "id",
+              "type": "String"
+            },
+            {
+              "name": "owner",
+              "type": "Identity"
+            },
+            {
+              "name": "secret",
+              "type": "String"
+            },
+            {
+              "name": "title",
+              "type": "String"
+            },
+            {
+              "name": "snapshot",
+              "type": {
+                "Array": {
+                  "Primitive": "U8"
+                }
+              }
+            },
+            {
+              "name": "due_at",
+              "type": "Timestamp"
+            },
+            {
+              "name": "created_at",
+              "type": "Timestamp"
+            },
+            {
+              "name": "closed",
+              "type": {
+                "Primitive": "Bool"
+              }
+            },
+            {
+              "name": "template",
+              "type": "String"
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "7": {
+        "Product": {
+          "elements": [
+            {
+              "name": "id",
+              "type": "String"
+            },
+            {
+              "name": "assignment",
+              "type": "String"
+            },
+            {
+              "name": "student",
+              "type": "Identity"
+            },
+            {
+              "name": "notebook",
+              "type": "String"
+            },
+            {
+              "name": "state",
+              "type": "String"
+            },
+            {
+              "name": "started_at",
+              "type": "Timestamp"
+            },
+            {
+              "name": "handed_in_at",
+              "type": "Timestamp"
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "8": {
+        "Product": {
+          "elements": [
+            {
+              "name": "assignment",
+              "type": "String"
+            },
+            {
+              "name": "title",
+              "type": "String"
+            },
+            {
+              "name": "owner_name",
+              "type": "String"
+            },
+            {
+              "name": "closed",
+              "type": {
+                "Primitive": "Bool"
+              }
+            }
+          ],
+          "recursive": false
+        }
+      },
+      "9": {
+        "Product": {
+          "elements": [
+            {
+              "name": "secret",
+              "type": "String"
+            }
+          ],
+          "recursive": false
+        }
+      }
+    },
+    "views": [
+      {
+        "accessor_name": "assignmentLookup",
+        "as_table": {
+          "accessor_name": "assignmentLookup",
+          "columns": [
+            {
+              "accessor_name": "assignment",
+              "name": "assignment"
+            },
+            {
+              "accessor_name": "title",
+              "name": "title"
+            },
+            {
+              "accessor_name": "owner_name",
+              "name": "owner_name"
+            },
+            {
+              "accessor_name": "closed",
+              "name": "closed"
+            }
+          ],
+          "indexes": [],
+          "is_event": false,
+          "name": "assignment_lookup",
+          "primary_key": null,
+          "product_type_ref": 8,
+          "public": true
+        },
+        "name": "assignment_lookup",
+        "params": [
+          "secret"
+        ],
+        "params_for_generate": [
+          {
+            "name": "secret",
+            "type": "String"
+          }
+        ]
+      },
+      {
+        "accessor_name": "assignmentSubmissions",
+        "as_table": {
+          "accessor_name": "assignmentSubmissions",
+          "columns": [
+            {
+              "accessor_name": "student",
+              "name": "student"
+            },
+            {
+              "accessor_name": "display_name",
+              "name": "display_name"
+            },
+            {
+              "accessor_name": "notebook",
+              "name": "notebook"
+            },
+            {
+              "accessor_name": "state",
+              "name": "state"
+            },
+            {
+              "accessor_name": "started_at",
+              "name": "started_at"
+            },
+            {
+              "accessor_name": "handed_in_at",
+              "name": "handed_in_at"
+            }
+          ],
+          "indexes": [],
+          "is_event": false,
+          "name": "assignment_submissions",
+          "primary_key": null,
+          "product_type_ref": 10,
+          "public": true
+        },
+        "name": "assignment_submissions",
+        "params": [
+          "assignment"
+        ],
+        "params_for_generate": [
+          {
+            "name": "assignment",
+            "type": "String"
+          }
+        ]
+      },
+      {
+        "accessor_name": "assignmentTemplate",
+        "as_table": {
+          "accessor_name": "assignmentTemplate",
+          "columns": [
+            {
+              "accessor_name": "assignment",
+              "name": "assignment"
+            },
+            {
+              "accessor_name": "snapshot",
+              "name": "snapshot"
+            }
+          ],
+          "indexes": [],
+          "is_event": false,
+          "name": "assignment_template",
+          "primary_key": null,
+          "product_type_ref": 12,
+          "public": true
+        },
+        "name": "assignment_template",
+        "params": [
+          "secret"
+        ],
+        "params_for_generate": [
+          {
+            "name": "secret",
+            "type": "String"
+          }
+        ]
+      },
+      {
+        "accessor_name": "inviteLookup",
+        "as_table": {
+          "accessor_name": "inviteLookup",
+          "columns": [
+            {
+              "accessor_name": "notebook",
+              "name": "notebook"
+            },
+            {
+              "accessor_name": "expires_at",
+              "name": "expires_at"
+            },
+            {
+              "accessor_name": "role",
+              "name": "role"
+            },
+            {
+              "accessor_name": "title",
+              "name": "title"
+            },
+            {
+              "accessor_name": "owner_name",
+              "name": "owner_name"
+            }
+          ],
+          "indexes": [],
+          "is_event": false,
+          "name": "invite_lookup",
+          "primary_key": null,
+          "product_type_ref": 17,
+          "public": true
+        },
+        "name": "invite_lookup",
+        "params": [
+          "secret"
+        ],
+        "params_for_generate": [
+          {
+            "name": "secret",
+            "type": "String"
+          }
+        ]
+      },
+      {
+        "accessor_name": "myAssignments",
+        "as_table": {
+          "accessor_name": "myAssignments",
+          "columns": [
+            {
+              "accessor_name": "id",
+              "name": "id"
+            },
+            {
+              "accessor_name": "secret",
+              "name": "secret"
+            },
+            {
+              "accessor_name": "title",
+              "name": "title"
+            },
+            {
+              "accessor_name": "created_at",
+              "name": "created_at"
+            },
+            {
+              "accessor_name": "closed",
+              "name": "closed"
+            },
+            {
+              "accessor_name": "template",
+              "name": "template"
+            }
+          ],
+          "indexes": [],
+          "is_event": false,
+          "name": "my_assignments",
+          "primary_key": null,
+          "product_type_ref": 20,
+          "public": true
+        },
+        "name": "my_assignments",
+        "params": [],
+        "params_for_generate": []
+      },
+      {
+        "accessor_name": "myNotebooks",
+        "as_table": {
+          "accessor_name": "myNotebooks",
+          "columns": [
+            {
+              "accessor_name": "notebook",
+              "name": "notebook"
+            },
+            {
+              "accessor_name": "is_owner",
+              "name": "is_owner"
+            },
+            {
+              "accessor_name": "role",
+              "name": "role"
+            }
+          ],
+          "indexes": [],
+          "is_event": false,
+          "name": "my_notebooks",
+          "primary_key": null,
+          "product_type_ref": 22,
+          "public": true
+        },
+        "name": "my_notebooks",
+        "params": [],
+        "params_for_generate": []
+      },
+      {
+        "accessor_name": "mySubmissions",
+        "as_table": {
+          "accessor_name": "mySubmissions",
+          "columns": [
+            {
+              "accessor_name": "assignment",
+              "name": "assignment"
+            },
+            {
+              "accessor_name": "notebook",
+              "name": "notebook"
+            },
+            {
+              "accessor_name": "state",
+              "name": "state"
+            },
+            {
+              "accessor_name": "title",
+              "name": "title"
+            },
+            {
+              "accessor_name": "owner_name",
+              "name": "owner_name"
+            },
+            {
+              "accessor_name": "closed",
+              "name": "closed"
+            },
+            {
+              "accessor_name": "handed_in_at",
+              "name": "handed_in_at"
+            }
+          ],
+          "indexes": [],
+          "is_event": false,
+          "name": "my_submissions",
+          "primary_key": null,
+          "product_type_ref": 24,
+          "public": true
+        },
+        "name": "my_submissions",
+        "params": [],
+        "params_for_generate": []
+      },
+      {
+        "accessor_name": "notebookChanges",
+        "as_table": {
+          "accessor_name": "notebookChanges",
+          "columns": [
+            {
+              "accessor_name": "seq",
+              "name": "seq"
+            },
+            {
+              "accessor_name": "notebook",
+              "name": "notebook"
+            },
+            {
+              "accessor_name": "key",
+              "name": "key"
+            },
+            {
+              "accessor_name": "payload",
+              "name": "payload"
+            }
+          ],
+          "indexes": [],
+          "is_event": false,
+          "name": "notebook_changes",
+          "primary_key": null,
+          "product_type_ref": 2,
+          "public": true
+        },
+        "name": "notebook_changes",
+        "params": [
+          "notebook",
+          "after"
+        ],
+        "params_for_generate": [
+          {
+            "name": "notebook",
+            "type": "String"
+          },
+          {
+            "name": "after",
+            "type": {
+              "Primitive": "U64"
+            }
+          }
+        ]
+      },
+      {
+        "accessor_name": "notebookInvites",
+        "as_table": {
+          "accessor_name": "notebookInvites",
+          "columns": [
+            {
+              "accessor_name": "secret",
+              "name": "secret"
+            },
+            {
+              "accessor_name": "notebook",
+              "name": "notebook"
+            },
+            {
+              "accessor_name": "expires_at",
+              "name": "expires_at"
+            },
+            {
+              "accessor_name": "role",
+              "name": "role"
+            },
+            {
+              "accessor_name": "title",
+              "name": "title"
+            }
+          ],
+          "indexes": [],
+          "is_event": false,
+          "name": "notebook_invites",
+          "primary_key": null,
+          "product_type_ref": 3,
+          "public": true
+        },
+        "name": "notebook_invites",
+        "params": [
+          "notebook"
+        ],
+        "params_for_generate": [
+          {
+            "name": "notebook",
+            "type": "String"
+          }
+        ]
+      },
+      {
+        "accessor_name": "notebookMembers",
+        "as_table": {
+          "accessor_name": "notebookMembers",
+          "columns": [
+            {
+              "accessor_name": "user",
+              "name": "user"
+            },
+            {
+              "accessor_name": "is_owner",
+              "name": "is_owner"
+            },
+            {
+              "accessor_name": "joined_at",
+              "name": "joined_at"
+            },
+            {
+              "accessor_name": "role",
+              "name": "role"
+            },
+            {
+              "accessor_name": "via_publish_link",
+              "name": "via_publish_link"
+            },
+            {
+              "accessor_name": "display_name",
+              "name": "display_name"
+            }
+          ],
+          "indexes": [],
+          "is_event": false,
+          "name": "notebook_members",
+          "primary_key": null,
+          "product_type_ref": 28,
+          "public": true
+        },
+        "name": "notebook_members",
+        "params": [
+          "notebook"
+        ],
+        "params_for_generate": [
+          {
+            "name": "notebook",
+            "type": "String"
+          }
+        ]
+      },
+      {
+        "accessor_name": "notebookSnapshot",
+        "as_table": {
+          "accessor_name": "notebookSnapshot",
+          "columns": [
+            {
+              "accessor_name": "id",
+              "name": "id"
+            },
+            {
+              "accessor_name": "owner",
+              "name": "owner"
+            },
+            {
+              "accessor_name": "snapshot",
+              "name": "snapshot"
+            },
+            {
+              "accessor_name": "created_at",
+              "name": "created_at"
+            }
+          ],
+          "indexes": [],
+          "is_event": false,
+          "name": "notebook_snapshot",
+          "primary_key": null,
+          "product_type_ref": 0,
+          "public": true
+        },
+        "name": "notebook_snapshot",
+        "params": [
+          "notebook"
+        ],
+        "params_for_generate": [
+          {
+            "name": "notebook",
+            "type": "String"
+          }
+        ]
+      },
+      {
+        "accessor_name": "resourceChunkAt",
+        "as_table": {
+          "accessor_name": "resourceChunkAt",
+          "columns": [
+            {
+              "accessor_name": "key",
+              "name": "key"
+            },
+            {
+              "accessor_name": "resource",
+              "name": "resource"
+            },
+            {
+              "accessor_name": "index",
+              "name": "index"
+            },
+            {
+              "accessor_name": "data",
+              "name": "data"
+            }
+          ],
+          "indexes": [],
+          "is_event": false,
+          "name": "resource_chunk_at",
+          "primary_key": null,
+          "product_type_ref": 4,
+          "public": true
+        },
+        "name": "resource_chunk_at",
+        "params": [
+          "notebook",
+          "sha_256",
+          "index"
+        ],
+        "params_for_generate": [
+          {
+            "name": "notebook",
+            "type": "String"
+          },
+          {
+            "name": "sha_256",
+            "type": "String"
+          },
+          {
+            "name": "index",
+            "type": {
+              "Primitive": "U32"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
